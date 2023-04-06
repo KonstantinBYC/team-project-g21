@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+  <head>
+    <title>Slick слайдер</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/our__products.css" />
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <section class="our-products section">
+      <div class="our-products container">
+        <h2 class="our-products__title">
+          OUR <span class="second-part__title">PRODUCTS</span>
+        </h2>
+        <ul class="slider list">
+          <li class="slider__item filter">
+            <img
+              srcset="
+                ./img/products/products.jpg    1x,
+                ./img/products/products@2x.jpg 2x
+              "
+              src="./img/products/products.jpg"
+              alt="products"
+			  width="230"
+            />
+            <div class="our-products__descr">
+              <h3 class="our-products__name">ORANGE</h3>
+              <p class="our-products__type">Dark chocolate</p>
+              <button class="our-products__price">45 UAH</button>
+            </div>
+          </li>
+          <li class="slider__item">
+            <img
+              srcset="
+                src/img/products/products2.jpg    1x,
+                ./img/products/products2@2x.jpg 2x
+              "
+              src="./img/products/products2.jpg"
+              alt="products2"
+			  width="230"
+            />
+            <div class="our-products__descr">
+              <h3 class="our-products__name 1">APPLE&CRANBERRY</h3>
+              <p class="our-products__type">Milk chocolate</p>
+              <button class="our-products__price">50 UAH</button>
+            </div>
+          </li>
+          <li class="slider__item">
+            <img
+              srcset="
+                ./img/products/products3.jpg    1x,
+                ./img/products/products3@2x.jpg 2x
+              "
+              src="./img/products/products3.jpg"
+              alt="products3"
+			  width="230"
+            />
+            <div class="our-products__descr">
+              <h3 class="our-products__name 2">LIME&SEA SALT</h3>
+              <p class="our-products__type">Dark chocolate</p>
+              <button class="our-products__price">66 UAH</button>
+            </div>
+          </li>
+          <li class="slider__item">
+            <img
+              srcset="
+                ./img/products/products4.jpg    1x,
+                ./img/products/products4@2x.jpg 2x
+              "
+              src="./img/products/products4.jpg"
+              alt="products4"
+			  width="230"
+            />
+            <div class="our-products__descr">
+              <h3 class="our-products__name">PINEAPPLE</h3>
+              <p class="our-products__type">Dark chocolate</p>
+              <button class="our-products__price">54 UAH</button>
+            </div>
+          </li>
+          <li class="slider__item">
+            <img
+              srcset="
+                ./img/products/products5.jpg    1x,
+                ./img/products/products5@2x.jpg 2x
+              "
+              src="./img/products/products5.jpg"
+              alt="products5"
+			  width="230"
+            />
+            <div class="our-products__descr">
+              <h3 class="our-products__name">CLASSIC</h3>
+              <p class="our-products__type">Milk chocolate</p>
+              <button class="our-products__price">45 UAH</button>
+            </div>
+          </li>
+          <li class="slider__item">
+            <img
+              srcset="
+                ./img/products/products6.jpg    1x,
+                ./img/products/products6@2x.jpg 2x
+              "
+              src="./img/products/products6.jpg"
+              alt="products6"
+			  width="230"
+            />
+            <div class="our-products__descr">
+              <h3 class="our-products__name">HONEY</h3>
+              <p class="our-products__type">Milk chocolate</p>
+              <button class="our-products__price">50 UAH</button>
+            </div>
+          </li>
+          <li class="slider__item">
+            <img
+              srcset="
+                ./img/products/products7.jpg    1x,
+                ./img/products/products7@2x.jpg 2x
+              "
+              src="./img/products/products7.jpg"
+              alt="products7"
+			  width="230"
+            />
+            <div class="our-products__descr">
+              <h3 class="our-products__name 3">ROASTED FRUITS</h3>
+              <p class="our-products__type">Dark chocolate</p>
+              <button class="our-products__price">66 UAH</button>
+            </div>
+          </li>
+          <li class="slider__item">
+            <img
+              srcset="
+                ./img/products/products8.jpg    1x,
+                ./img/products/products8@2x.jpg 2x
+              "
+              src="./img/products/products8.jpg"
+              alt="products8"
+			  width="230"
+            />
+            <div class="our-products__descr">
+              <h3 class="our-products__name">CLASSIC</h3>
+              <p class="our-products__type">White chocolate</p>
+              <button class="our-products__price">54 UAH</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+      <script src="js/slick.min.js"></script>
+
+      <script src="js/script.js"></script>
+    </section>
+  </body>
+</html>
