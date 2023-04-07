@@ -56,6 +56,7 @@ body {
   font-size: 14px;
   color: var(--primary-font-color);
   background-color: var(--primary-bg-color);
+  margin: 0;
 }
 
 .list {
