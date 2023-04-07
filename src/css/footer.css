@@ -26,7 +26,6 @@
   }
 
   .footer-content {
-
       margin-bottom: 32px;
       padding-bottom: 32px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -100,8 +99,6 @@
       letter-spacing: -0.02em;
   }
 
-
-
   .footer-navigation-link {
       transition: color 250ms var(--timing-function);
   }
@@ -116,8 +113,6 @@
   }
 
   /* ------------------------Media----------------------------- */
-
-  @media screen and (max-width: 374px) {}
 
   @media screen and (min-width: 375px) {
       .footer-section .container {
