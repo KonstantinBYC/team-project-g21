@@ -1,0 +1,30 @@
+.unique-components-heading {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+
+
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+    color: #111111;
+    min-width: 283px;
+}
+
+.unique-components-heading > span{
+    color: #FD9222;
+}
+
+.unique-components-desc{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 1.29;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #111111;
+    min-width: 335px;
+}
