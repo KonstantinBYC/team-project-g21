@@ -1,0 +1,70 @@
+body {
+    box-sizing: border-box;
+}
+
+/* ---------------------------------mobile styles--------------------------------- */
+/* .top-sellers-section {
+    width: 100%;
+} */
+
+.top-sellers-section .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 375px;
+}
+
+.top-sellers-title {
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.top-sellers-title-span {
+    color: var(--accent-color);
+}
+
+.top-sallers-wrapper {
+    position: relative;
+}
+
+.top-sellers-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 142px;
+    margin-bottom: 20px;
+}
+
+.top-sellers-list img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.top-sellers-list li:last-child {
+    display: none;
+}
+
+.top-sellers-description {
+    display: block;
+    position: absolute;
+    top: 47%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -.02em;
+}
+
+.top-sellers-button {
+    
+}
+
+@media screen and (min-width: 375px) {
+    .top-sellers-list img {
+        max-width: 335px;
+    }
+}
