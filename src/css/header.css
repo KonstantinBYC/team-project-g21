@@ -7,11 +7,7 @@
 
 .header {
   background-color: #fafafa;
-<<<<<<< Updated upstream
    overflow-x: hidden;
-=======
-  overflow: hidden;
->>>>>>> Stashed changes
 }
 .nav a {
   padding: 24px 0;
@@ -27,11 +23,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-<<<<<<< Updated upstream
 .nav {
-=======
-  .nav {
->>>>>>> Stashed changes
     display: flex;
     gap: 138px;
     justify-content: space-between;
@@ -68,7 +60,6 @@
   .nav-list-social {
     display: none;
   }
-<<<<<<< Updated upstream
   .mobile-menu-open{
     background-color: transparent;
     border: none;
@@ -76,15 +67,6 @@
   .mobile-menu-open_icon{
 width: 28px;
 height: 28px;
-=======
-  .mobile-menu-open {
-    background-color: transparent;
-    border: none;
-  }
-  .mobile-menu-open_icon {
-    width: 28px;
-    height: 28px;
->>>>>>> Stashed changes
   }
 }
 
@@ -98,15 +80,9 @@ height: 28px;
   .nav-list-social {
     display: none;
   }
-<<<<<<< Updated upstream
     .mobile-menu-open_icon{
 width: 32px;
 height: 32px;
-=======
-  .mobile-menu-open_icon {
-    width: 32px;
-    height: 32px;
->>>>>>> Stashed changes
   }
 }
 
@@ -114,13 +90,8 @@ height: 32px;
   .container {
     width: 1136px;
   }
-<<<<<<< Updated upstream
   
   .mobile-menu-open{
-=======
-
-  .mobile-menu-open {
->>>>>>> Stashed changes
     display: none;
   }
   .nav-link.logo {
