@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simply Chocolate</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/subscribe.css" />
+</head>
+
+<body class="page">
+
+<section class="subscribe">
+
+    <div class="container">
+        <h2 class="header">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
+        <p class="description">From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave you craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a work of art that is sure to please.</p>
+        <button class="subscribe-button>" data-modal-open type="button">Subscribe</button>
+    </div>
+
+    <div class="modal-menu" data-modal>
+      <div class="container modal-subscribe">
+
+        <button class="modal-close" data-modal-close type="button">
+            <svg class="cross-icon" width="12" height="12">
+              <use href="../img/sprite.svg#icon-x-close"></use>
+            </svg>
+          </button>
+      </div>
+
+      <div class="container modal-text">
+        <p class="modal-title">Explore our <span class="span-modal">new chocolate</span>first!</p>
+
+          <form class="form-modal">
+            <input
+              name="user-post"
+              aria-label="Email"
+              class="subscribe-email"
+              placeholder="E-mail"
+            />
+
+            <button type="submit" class="button-explore">Submit</button>
+          </form>
+      </div>
+    </div>
+</section>
+
+<script src="../js/modal.js"></script>
+
+</body>
+</html>
