@@ -1,16 +1,166 @@
 <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+      <div class="container">
+        <nav class="nav">
+          <a href="./index.html" class="nav-link logo"
+            ><span class="italic-logo">SIMPLY</span>&#160;CHOCOLATE
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-      <li class="nav-item">
-        <a href="./page-4.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
-</header>
+            <svg class="icon-logo">
+              <use href="../img/sprite.svg#icon-logo-chocolate"></use>
+            </svg>
+          </a>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">How it’s made?</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Our products</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Top sellers</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Chocolate is loved</a>
+            </li>
+          </ul>
+
+          <ul class="nav-list-social">
+            <li>
+              <a href="https://www.instagram.com/" class="nav-link" target="_blank">
+                <svg class="icon-social">
+                  <use href="../img/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" class="nav-link" target="_blank">
+                <svg class="icon-social">
+                  <use href="../img/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <button type="button" class="mobile-menu-open" data-menu-open>
+          <svg class="mobile-menu-open_icon">
+            <use href="../img/sprite.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>
+
+<!-- Header
+В Header-і знаходиться лого, меню навігації та перелік посилань на соц. мережі компанії.
+Меню навігації  на мобільній версії відображається як бокова панель, що виїжджає. 
+Мобільне меню фіксоване, висота відповідає висоті в'юпорту. 
+Меню має бути реалізовано якірними посиланнями, які ведуть до відповідних розділів сторінки.
+Анімацію меню на мобільних пристроях реалізувати згідно макету.* 
+Перелік посилань на соц. мережі має бути реалізовано як список елементів за допомогою <ul>, 
+що відкриватимуть стартову сторінку відповідної соц. мережі у новій вкладці. 
+Іконки соц. мереж потрібно реалізувати у форматі svg.  -->
+
+<!-- <div class="main-nav container">
+        <nav class="main-nav">
+          <a href="./index.html" class="link logo"
+            ><span class="web">WEB</span>STUDIO</a
+          >
+          <ul class="list site-nav">
+            <li class="item">
+              <a href="./index.html" class="link current-page">Studio</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="mobile-menu-open" data-menu-open>
+          <svg class="mobile-menu-open_icon" width="32" height="22">
+            <use href="./images/icons.svg#burger-icon"></use>
+          </svg>
+        </button>
+        <address class="address">
+          <ul class="contact-info list">
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-container">
+          <button class="close-btn" data-menu-close>
+            <svg class="close-svg">
+              <use href="./images/icons.svg#closebtn"></use>
+            </svg>
+          </button>
+          <ul class="list site-nav-mobile-menu">
+            <li class="item-mobile-menu">
+              <a href="./index.html" class="link highlighted">Studio</a>
+            </li>
+            <li class="item-mobile-menu">
+              <a href="./portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li class="item-mobile-menu">
+              <a href="" class="link">Contacts</a>
+            </li>
+          </ul>
+
+          <ul class="contact-info-mobile list">
+            <li class="item-tel">
+              <a href="tel:+110001111111" class="link highlighted"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="link item-email"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <div class="mobile-menu-social">
+            <ul class="mobile-social">
+              <li>
+                <a class="link-social" href="#">
+                  <svg class="social">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="link-social" href="#">
+                  <svg class="social">
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="link-social" href="#">
+                  <svg class="social">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="link-social" href="#">
+                  <svg class="social">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header> -->
