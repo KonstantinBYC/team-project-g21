@@ -13,16 +13,11 @@
     />
 
     <link rel="stylesheet" href="modern-normalize/modern-normalize.css" />
-    <link rel="stylesheet" href="../css/popup_review.css" />
+    <link rel="stylesheet" href="../css/leave_a_review_modal.css" />
     <title>Document</title>
   </head>
   <body>
-    <!-- Удадить или приментить с дургими классами -->
-    <button type="button" class="modal-test-opener" data-modal-open>
-      Modal open check
-    </button>
-    <!-- //// -->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button
           type="button"
@@ -38,8 +33,20 @@
           <span class="modal-title--part">our chocolate</span>
         </h3>
         <form class="modal-form">
-          <input class="modal-input" type="name" placeholder="Name" />
-          <input class="modal-input" type="email" placeholder="Email" />
+          <input
+            class="modal-input"
+            type="name"
+            placeholder="Name"
+            required
+            pattern="/^[a-z ,.'-]+$/i"
+          />
+          <input
+            class="modal-input"
+            type="email"
+            placeholder="Email"
+            required
+            pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+          />
           <div class="phone-wrap">
             <div class="phone-country">
               <div class="flag"></div>
@@ -49,6 +56,8 @@
               class="phone-input"
               type="phone"
               placeholder="Phone number"
+              required
+              pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$"
             />
           </div>
           <textarea class="modal-textarea" placeholder="Enter text"></textarea>
@@ -62,7 +71,5 @@
         </form>
       </div>
     </div>
-
-    <script src="../js/modal.js"></script>
   </body>
 </html>
