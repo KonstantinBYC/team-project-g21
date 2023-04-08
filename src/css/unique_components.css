@@ -1,0 +1,251 @@
+.component-flip-card-front > picture{
+    margin-bottom: 25px;
+    width: 224px;
+    height:171px;
+
+}
+
+.component-flip-card-front > picture > img{
+    margin: 0;
+    width: 100%;
+    height:100%;
+
+}
+
+.unique-components{
+    margin: 72px 0;
+}
+
+.unique-components-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.unique-components-heading {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+
+
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+    color: #111111;
+    width: 283px;
+    margin-bottom: 24px;
+}
+
+.unique-components-heading > span{
+    color: #FD9222;
+}
+
+.unique-components-desc{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 1.29;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #111111;
+    width: 335px;
+    margin-bottom: 32px;
+}
+
+.components-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.components-list-item{
+    margin-bottom: 20px;
+    width: 335px;
+    height: 270px;
+
+}
+
+.component-flip-card{
+    background-color: transparent;
+    width: 335PX;
+    height: 270px;
+    border: 1px solid #FD9222;
+    border-radius: 15px;
+    perspective: 1000px; 
+
+
+}
+
+.component-flip-card:hover .component-flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+.component-flip-card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+}
+
+.component-flip-card-front, .component-flip-card-back {
+    position: absolute;
+    
+    backface-visibility: hidden;
+  }
+
+  .component-flip-card-front{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+
+    width: 223px;
+    height:  214px;
+
+    padding: 28px 56px;
+
+    background: #fff;
+
+
+  }
+
+
+
+  .component-flip-card-front > p{
+    text-align-last: left;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  }
+
+  
+  /* Style the back side */
+  .component-flip-card-back {
+    width: 279px;
+    height:  214px;
+
+    padding: 28px;
+
+    background-color: white;
+    transform: rotateY(180deg);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    
+  }
+
+  .component-flip-card-back-heading{
+    margin-bottom: 8px;
+  }
+
+  .component-flip-card-back-buttons{
+    margin-bottom: 14px;
+  }
+
+  .component-flip-card-back-button{
+    padding: 6px 16px;
+    background: #FD9222;
+    border: 1px solid #FD9222;
+
+    border-radius: 35px;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    line-height: 1.2;
+    color: #FFFFFF;
+
+    outline: none;
+  }
+
+  .component-flip-card-back-button:nth-child(2){
+    background: #fff;
+    color: #111111;
+  }
+
+  .component-flip-card-back-description{
+    font-family: 'Montserrat'; 
+    font-size: 14px;
+    line-height: 1.29;
+
+    letter-spacing: -0.02em;
+
+    color: #111111;
+    text-align: left;
+  }
+
+
+@media screen and (min-width: 768px){
+    .unique-components{
+        margin: 100px 0;
+    }
+    
+
+    .unique-components-heading{
+        font-size: 24px;
+        line-height: 1.17;
+        width: 411px;
+    }
+
+    .unique-components-desc{
+        width: 486px;
+    }
+
+    .components-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 32px;
+        align-items: center;
+        margin: 0 auto;
+        width: 704px;
+    }
+
+
+    .components-list-item{
+        margin: 0;
+    }
+
+    .components-list-item:nth-child(1){
+        order: 1;
+    }
+    .components-list-item:nth-child(2){
+        order: 3;
+    }
+    .components-list-item:nth-child(3){
+        order: 4;
+    }
+
+    .components-list-item:nth-child(4){
+        order: 2;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    .unique-components-heading{
+        margin-bottom: 28px;
+    }
+
+    .unique-components-desc{
+        margin-bottom: 50px;
+    }
+
+    .components-list{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    
+}
