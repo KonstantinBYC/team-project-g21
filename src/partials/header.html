@@ -1,16 +1,107 @@
 <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+  <div class="container">
+    <nav class="nav">
+      <a href="./index.html" class="nav-link logo"
+        ><span class="italic-logo">SIMPLY</span>&#160;CHOCOLATE
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-      <li class="nav-item">
-        <a href="./page-4.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+        <svg class="icon-logo">
+          <use href="../img/sprite.svg#icon-logo-chocolate"></use>
+        </svg>
+      </a>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="./index.html" id="home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="" id="how-it’s-made" class="nav-link">How it’s made?</a>
+        </li>
+        <li class="nav-item">
+          <a href="" id="Our-products" class="nav-link">Our products</a>
+        </li>
+        <li class="nav-item">
+          <a href="" id="top-sellers" class="nav-link">Top sellers</a>
+        </li>
+        <li class="nav-item">
+          <a href="" id="Chocolate-is-loved" class="nav-link"
+            >Chocolate is loved</a
+          >
+        </li>
+      </ul>
+
+      <ul class="nav-list-social">
+        <li>
+          <a href="https://www.instagram.com/" class="nav-link" target="_blank">
+            <svg class="icon-social">
+              <use href="../img/sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" class="nav-link" target="_blank">
+            <svg class="icon-social">
+              <use href="../img/sprite.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <button type="button" class="mobile-menu-open js-open-menu">
+        <svg class="mobile-menu-open_icon">
+          <use href="../img/sprite.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
 </header>
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <button class="menu-toggle js-close-menu">
+    <svg class="icon-x-close">
+      <use href="../img/sprite.svg#icon-x-close"></use>
+    </svg>
+  </button>
+
+  <ul class="mobile-menu">
+    <li><a href="#" class="link-mobile">Home</a></li>
+    <li><a href="" class="link-mobile">How it’s made?</a></li>
+    <li><a href="" class="link-mobile">Our products</a></li>
+    <li><a href="" class="link-mobile">Top sellers</a></li>
+    <li><a href="" class="link-mobile">Chocolate is loved</a></li>
+  </ul>
+
+  <ul class="menu-list-social">
+    <li>
+      <a
+        href="https://www.instagram.com/"
+        class="nav-link-mobile-menu"
+        target="_blank"
+      >
+        <svg class="icon-social white">
+          <use href="../img/sprite.svg#icon-instagram"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.twitter.com"
+        class="nav-link-mobile-menu"
+        target="_blank"
+      >
+        <svg class="icon-social white">
+          <use href="../img/sprite.svg#icon-twitter"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- Header
+В Header-і знаходиться лого, меню навігації та перелік посилань на соц. мережі компанії.
+Меню навігації  на мобільній версії відображається як бокова панель, що виїжджає. 
+Мобільне меню фіксоване, висота відповідає висоті в'юпорту. 
+Меню має бути реалізовано якірними посиланнями, які ведуть до відповідних розділів сторінки.
+Анімацію меню на мобільних пристроях реалізувати згідно макету.* 
+Перелік посилань на соц. мережі має бути реалізовано як список елементів за допомогою <ul>, 
+що відкриватимуть стартову сторінку відповідної соц. мережі у новій вкладці. 
+Іконки соц. мереж потрібно реалізувати у форматі svg.  -->
