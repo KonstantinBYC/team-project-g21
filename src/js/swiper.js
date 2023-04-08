@@ -3,6 +3,7 @@ const views = new Swiper('.reviews__block', {
   direction: 'horizontal',
   mousewheel: true,
   keyboard: true,
+  simulateTouch: false,
 
   pagination: {
     el: '.reviews__swiper-pagination',
