@@ -40,7 +40,7 @@
   text-align: center;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: transparent;
   margin-bottom: 24px;
 }
@@ -83,7 +83,6 @@ backdrop {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .modal-subscribe {
@@ -94,8 +93,7 @@ backdrop {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  background-color: #FAFAFA;
-
+  background-color: #fafafa;
 
   margin: 0 auto;
   margin-left: auto;
@@ -112,7 +110,6 @@ backdrop {
   padding-left: 40px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 32px;
-
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -153,7 +150,6 @@ backdrop {
   display: flex;
   flex-direction: row;
   text-align: left;
-
 }
 
 .subscribe-email {
@@ -168,7 +164,6 @@ backdrop {
   border-radius: 25px;
 
   position: relative;
-
 }
 
 .subscribe-email::placeholder {
@@ -182,7 +177,6 @@ backdrop {
   margin-left: 18px;
   padding-top: 14px;
   padding-left: 18px;
-
 }
 
 .button-explore {
@@ -207,12 +201,8 @@ backdrop {
   margin-left: 0;
   margin-right: 0;
   position: absolute;
-  
+
   left: 50%;
   top: 28%;
   transform: translate(-50%, -28%);
 }
-
-  
-
-
