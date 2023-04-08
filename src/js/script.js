@@ -19,9 +19,9 @@ const views = new Swiper('.our-products__block', {
 	  
 		spaceBetween: 18,
 	  },
-	  320: {
+	  375: {
 		slidesPerView: 1,
-		spaceBetween: 20,
+		spaceBetween: 50,
 	  },
 	},
   });
