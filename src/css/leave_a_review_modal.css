@@ -94,6 +94,7 @@ body {
   color: #111111;
   margin-top: 40px;
   margin-left: 40px;
+  margin-bottom: 40px;
 }
 .modal-title--part {
   color: #fd9222;
@@ -139,6 +140,7 @@ body {
   padding-top: 22px;
   outline: none;
   font-size: inherit;
+  box-sizing: border-box;
 }
 
 .phone-wrap {
