@@ -22,20 +22,18 @@
     <div class="container">
         <h2 class="header">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
         <p class="description">From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave you craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a work of art that is sure to please.</p>
-        <button class="subscribe-button>" data-modal-open type="button">Subscribe</button>
+        <button class="subscribe-button" data-modal-open type="button">Subscribe</button>
     </div>
 
-    <div class="modal-menu" data-modal>
-      <div class="container modal-subscribe">
-
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-subscribe">
         <button class="modal-close" data-modal-close type="button">
+
             <svg class="cross-icon" width="12" height="12">
               <use href="../img/sprite.svg#icon-x-close"></use>
             </svg>
           </button>
-      </div>
 
-      <div class="container modal-text">
         <p class="modal-title">Explore our <span class="span-modal">new chocolate</span>first!</p>
 
           <form class="form-modal">
@@ -43,12 +41,11 @@
               name="user-post"
               aria-label="Email"
               class="subscribe-email"
-              placeholder="E-mail"
-            />
+              placeholder="Enter your email"/>
 
             <button type="submit" class="button-explore">Submit</button>
           </form>
-      </div>
+
     </div>
 </section>
 
