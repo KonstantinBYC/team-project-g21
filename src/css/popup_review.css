@@ -109,15 +109,15 @@ body {
 }
 
 .modal-title {
+  display: block;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #111111;
-  padding-top: 40px;
-  padding-left: 40px;
-  padding-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
 }
 .modal-title--part {
   color: #fd9222;
