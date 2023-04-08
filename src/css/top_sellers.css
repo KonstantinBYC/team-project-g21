@@ -1,4 +1,4 @@
-* {
+.top-sellers-section * {
     box-sizing: border-box;
 }
 
@@ -167,12 +167,4 @@
         width: 407px;
     }
 
-}
-
-
-/* --------------------------------modal-windov--------------------------------------- */
-
-.backdrop {
-    width: 100vw;
-    height: 100vh;
 }
