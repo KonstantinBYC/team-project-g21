@@ -73,23 +73,25 @@
   .adv-wrap {
     padding-left: 35px;
     padding-right: 35px;
+    padding-bottom: 50px;
   }
   .adv-list {
     gap: 88px;
     flex-wrap: nowrap;
     justify-content: center;
   }
-  .adv-icon-circle {
+
+  .adv-list-item {
     position: relative;
   }
-  .adv-icon-circle::after {
+  .adv-list-item:not(:last-of-type)::after {
     content: '';
     display: inline-block;
     width: 124px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     transform: rotate(90deg);
     position: absolute;
-    top: 110px;
+    top: 120px;
     left: 264px;
   }
 }
