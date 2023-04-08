@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="modern-normalize/modern-normalize.css" />
+    <link rel="stylesheet" href="../css/popup_review.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="modal">
+      <button type="button" class="modal-close">
+        <svg class="modal-close--icon" width="28" height="28">
+          <use href="../img/sprite.svg#icon-x-close"></use>
+        </svg>
+      </button>
+      <h3 class="modal-title">
+        leave a review about<br />
+        <span class="modal-title--part">our chocolate</span>
+      </h3>
+      <form class="modal-form">
+        <input class="modal-input" type="name" placeholder="Name" />
+        <input class="modal-input" type="email" placeholder="Email" />
+        <div class="phone-wrap">
+          <div class="phone-country">
+            <div class="flag"></div>
+            <p class="country-choise">+380</p>
+          </div>
+          <input class="phone-input" type="phone" placeholder="Phone number" />
+        </div>
+        <textarea class="modal-textarea" placeholder="Enter text"></textarea>
+        <button type="submit" class="modal-submit">Send</button>
+      </form>
+    </div>
+
+    <script src="../js/modal.js"></script>
+  </body>
+</html>
