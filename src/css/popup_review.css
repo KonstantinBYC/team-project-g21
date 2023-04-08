@@ -44,14 +44,55 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Test */
+.modal-test-opener {
+  display: block;
+  background: #fd9222;
+  border-radius: 100px;
+  padding: 14px 40px 14px 40px;
+  color: #fff;
+  width: 300px;
+  height: 150px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+
+  color: #ffffff;
+}
+/* //// */
+
 /* Modal */
-.modal {
-  position: relative;
-  max-width: 517px;
+.backdrop {
   width: 100%;
-  height: 631px;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: opacity 250ms linear, visibility 250ms linear;
+}
+
+.modal {
+  position: absolute;
+  max-width: 517px;
+  min-width: 380px;
+  width: 100%;
+  min-height: 631px;
   background: #fafafa;
   border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .modal-close {
@@ -86,12 +127,13 @@ body {
   flex-direction: column;
   margin-left: 40px;
   margin-right: 40px;
+  justify-content: center;
 }
 
 .modal-input {
   display: block;
   margin-bottom: 19px;
-  width: 437px;
+  max-width: 437px;
   height: 66px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
@@ -110,7 +152,7 @@ body {
 
 .modal-textarea {
   margin-bottom: 18px;
-  width: 437px;
+  max-width: 437px;
   height: 137px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
@@ -122,18 +164,21 @@ body {
 
 .phone-wrap {
   display: flex;
+  align-items: center;
   margin-bottom: 19px;
-  width: 437px;
+  max-width: 437px;
   height: 66px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   border-radius: 13px;
   background-color: #fff;
+  gap: 28px;
 }
 
 .phone-country {
   display: flex;
-  gap: 8px;
-  justify-content: center;
+  margin-left: 24px;
+  align-items: center;
+  border-right: 2px solid rgba(17, 17, 17, 0.05);
 }
 
 .flag {
@@ -152,6 +197,7 @@ body {
   line-height: 1.22;
   letter-spacing: -0.02em;
   color: #000000;
+  margin: 5px 32px 5px 18px;
 }
 .modal-textarea {
   font-weight: 400;
@@ -162,6 +208,23 @@ body {
 }
 
 .phone-input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  outline: inherit;
+}
+
+.phone-input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: -0.02em;
+
+  color: rgba(64, 64, 64, 0.3);
 }
 
 .modal-submit {
@@ -173,4 +236,10 @@ body {
   width: 117px;
   height: 45px;
   border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
 }

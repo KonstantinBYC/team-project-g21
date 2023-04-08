@@ -17,29 +17,50 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="modal">
-      <button type="button" class="modal-close">
-        <svg class="modal-close--icon" width="28" height="28">
-          <use href="../img/sprite.svg#icon-x-close"></use>
-        </svg>
-      </button>
-      <h3 class="modal-title">
-        leave a review about<br />
-        <span class="modal-title--part">our chocolate</span>
-      </h3>
-      <form class="modal-form">
-        <input class="modal-input" type="name" placeholder="Name" />
-        <input class="modal-input" type="email" placeholder="Email" />
-        <div class="phone-wrap">
-          <div class="phone-country">
-            <div class="flag"></div>
-            <p class="country-choise">+380</p>
+    <!-- Удадить или приментить с дургими классами -->
+    <button type="button" class="modal-test-opener" data-modal-open>
+      Modal open check
+    </button>
+    <!-- //// -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button
+          type="button"
+          class="modal-close"
+          data-modal-close="popup_review"
+        >
+          <svg class="modal-close--icon" width="28" height="28">
+            <use href="../img/sprite.svg#icon-x-close"></use>
+          </svg>
+        </button>
+        <h3 class="modal-title">
+          leave a review about<br />
+          <span class="modal-title--part">our chocolate</span>
+        </h3>
+        <form class="modal-form">
+          <input class="modal-input" type="name" placeholder="Name" />
+          <input class="modal-input" type="email" placeholder="Email" />
+          <div class="phone-wrap">
+            <div class="phone-country">
+              <div class="flag"></div>
+              <p class="country-choise">+380</p>
+            </div>
+            <input
+              class="phone-input"
+              type="phone"
+              placeholder="Phone number"
+            />
           </div>
-          <input class="phone-input" type="phone" placeholder="Phone number" />
-        </div>
-        <textarea class="modal-textarea" placeholder="Enter text"></textarea>
-        <button type="submit" class="modal-submit">Send</button>
-      </form>
+          <textarea class="modal-textarea" placeholder="Enter text"></textarea>
+          <button
+            type="submit"
+            class="modal-submit"
+            data-modal-close="popup_review"
+          >
+            Send
+          </button>
+        </form>
+      </div>
     </div>
 
     <script src="../js/modal.js"></script>
