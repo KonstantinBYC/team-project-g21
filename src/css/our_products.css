@@ -119,12 +119,7 @@ color: var(--accent-color);
 
 }
 
-.our-products__descr{
-   justify-content: center;
-   text-align: center;
-   align-items: center;
-   
-}
+
 
 .our-products__name{
 	font-weight: 600;
@@ -166,6 +161,9 @@ border-radius: 100px;
 
   
   /* Styles Slider */
+  @media screen and (min-width: 768px;) {
+  }
+ 
   
   .our-products__block .swiper-wrapper {
 	box-sizing: content-box;
