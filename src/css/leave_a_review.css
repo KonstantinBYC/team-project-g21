@@ -213,6 +213,7 @@ body {
   background: #fd9222;
   border-radius: 100px;
   padding: 14px 40px 14px 40px;
+  cursor: pointer;
   color: #fff;
   width: 117px;
   height: 45px;

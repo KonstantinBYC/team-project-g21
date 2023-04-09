@@ -175,15 +175,7 @@
   .sudscribe > .container {
     min-width: 481px;
   }
-  .header {
-    max-width: 378px;
-    font-size: 24px;
-    line-height: 1.17;
-    padding-bottom: 0;
-    padding-top: 0;
-    margin: auto;
-    margin-bottom: 24px;
-  }
+
   .exp-modal-wrap {
     max-width: 538px;
     max-height: 412px;

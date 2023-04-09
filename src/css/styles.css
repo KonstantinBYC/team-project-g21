@@ -4,7 +4,6 @@
   | default @import url()
   |============================
 */
-
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./advantages.css');
@@ -33,7 +32,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --primary-bg-color: #e2e2e2;
+  --primary-bg-color: #fafafa;
   --secondary-bg-color: #1e1823;
   --card-bg-color: #ffffff;
   --primary-font-color: #111111;
@@ -80,10 +79,9 @@ body {
   text-decoration: none;
 }
 .container {
-  margin: 0 auto;
-  width: 100%;
   padding-right: 20px;
   padding-left: 20px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -97,7 +95,7 @@ h2,
 h3,
 p,
 ul {
-  margin: 0;
+  margin: 0px;
 }
 
 ul {
@@ -107,6 +105,7 @@ ul {
 }
 
 a {
+  display: block;
   text-decoration: none;
   color: var(--secondary-font-color);
 }

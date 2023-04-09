@@ -127,7 +127,7 @@
 
   width: 94px;
   height: 33px;
-  background: var(--price-bg-color);
+  background-color: var(--price-bg-color);
   border: 1px solid var(--bg-color-dots);
   border-radius: 100px;
 }
