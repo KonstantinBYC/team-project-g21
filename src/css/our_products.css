@@ -106,10 +106,13 @@ color: var(--accent-color);
 	  }
   }
 
+
   @media screen and (min-width:768px) {
 	.our-products__item {
-	 padding: 32px 20px;
-	  }
+	padding: 32px 20px;
+	max-width: 270px;
+	}
+	
   }
 
   
@@ -163,8 +166,7 @@ border-radius: 100px;
 
   
   /* Styles Slider */
-  @media screen and (min-width: 768px;) {
-  }
+ 
  
   
   .our-products__block .swiper-wrapper {
