@@ -219,6 +219,7 @@
 @media screen and (min-width: 1200px) {
   .unique-components .unique-components-container {
     max-width: 1200px;
+    margin-bottom: 128px;
   }
   .components-list {
     justify-content: space-between;
