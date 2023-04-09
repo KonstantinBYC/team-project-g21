@@ -23,8 +23,6 @@
 }
 
 .order-modal-close {
-    /* width: 12px;
-    height: 12px; */
     position: absolute;
     right: 14px;
     top: 14px;
@@ -123,6 +121,10 @@
     left: 18px;
     transform: translateY(-50%);
     box-shadow: 1.5px 0px 0px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
 }
 
 .order-form-control input {
@@ -140,6 +142,10 @@
 
 .order-form-control input::placeholder {
     color: rgba(64, 64, 64, 0.3);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
 }
 
 .order-form-control .order-card-form {
@@ -159,17 +165,25 @@
     height: 91px;
     width: 100%;
     margin-top: 8px;
+    padding: 14px 18px;
+}
+
+.order-form-textarea::placeholder {
+    color: rgba(64, 64, 64, 0.3);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
 }
 
 .submit-button {
     display: block;
     width: 109px;
     height: 41px;
-    left: 24px;
-    top: 921px;
     background-color: var(--accent-color);
     border-radius: 100px;
-    margin: 0 auto;
+    margin-left: 0;
+    margin-bottom: 0;
 
     font-weight: 600;
     font-size: 14px;
@@ -181,6 +195,16 @@
     .order-modal {
         max-width: 609px;
         padding: 48px;
+    }
+
+    .order-modal-close {
+        display: block;
+        right: 24px;
+        top: 24px;
+        width: 28px;
+        height: 28px;
+        background-color: var(--price-bg-color);
+        font-size: 0;
     }
 
     .order-form-title {
@@ -204,4 +228,85 @@
         margin-left: 0;
         margin-right: 0;
     }
+
+    .order-modal-container .order-list {
+        margin-bottom: 40px;
+    }
+
+    .order-form-group label {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+    }
+
+    .order-modal-form {
+        max-width: 513px;
+    }
+
+    .order-contacts-form {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        column-gap: 21px;
+    }
+
+    .order-form-control input {
+        height: 66px;
+        padding: 22px 24px;
+    }
+
+    .order-form-textarea {
+        padding: 22px 24px;
+    }
+
+    .form-icon {
+        right: 24px;
+    } 
+    
+    .modal-order-tel-icon {
+        width: 32px;
+        height: 24px;
+    }
+
+    .modal-order-icon-position {
+        left: 24px;
+        width: 125px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.22;
+        letter-spacing: -0.02em;
+
+    }
+
+    .order-form-control .modal-order-tel {
+        padding-left: 177px;
+    }
+
+    .submit-button {
+        padding: 14px 40px;
+        width: 133px;
+        height: 45px;
+
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.21;
+    }
+
+    .order-form-textarea::placeholder, .order-form-control input::placeholder {
+        color: rgba(64, 64, 64, 0.3);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.22;
+        letter-spacing: -0.02em;
+    }
+
+    .order-thumb>.order-btn {
+        min-height: 33px;
+        padding: 8px 27px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.21;
+    }
+
 }
