@@ -24,7 +24,7 @@ p {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  color: var(--primary-font-color);
+
   background: black;
   position: relative;
 }

@@ -160,7 +160,7 @@
   } */
   .container.reviews__container {
     max-width: 1176px;
-    padding: 0 20px;
+    padding: 64px 20px;
   }
   .reviews__item {
     padding: 56px 24px 24px;

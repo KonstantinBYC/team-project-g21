@@ -25,7 +25,6 @@
   line-height: 24px;
   font-weight: 400;
 
-  color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
@@ -38,7 +37,7 @@
   --secondary-bg-color: #1e1823;
   --card-bg-color: #ffffff;
   --primary-font-color: #111111;
-  --secondary-font-color: #FFFFF;
+  --secondary-font-color: #ffffff;
   --advantages-font-color: rgba(255, 255, 255, 0.7);
   --accent-color: #fd9222;
   --descr-font-kolor: rgba(17, 17, 17, 0.7);
@@ -54,7 +53,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  color: var(--primary-font-color);
   background-color: var(--primary-bg-color);
   margin: 0;
 }
@@ -109,8 +107,8 @@ ul {
 }
 
 a {
-  color: currentColor;
   text-decoration: none;
+  color: var(--secondary-font-color);
 }
 
 button {

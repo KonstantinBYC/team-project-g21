@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: var(--primary-bg-color);
+  color: var(--secondary-font-color);
 }
 .hero-desc {
   font-weight: 500;
