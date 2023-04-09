@@ -10,18 +10,18 @@ const views = new Swiper('.our-products__block', {
 	},
 	breakpoints: {
 	  1200: {
-		slidesPerView: 4,
+		slidesPerView: 3.91,
 	  
 		spaceBetween: 18,
 	  },
 	  768: {
-		slidesPerView: 2,
+		slidesPerView: 2.5,
 	  
 		spaceBetween: 18,
 	  },
-	  375: {
+	  320: {
 		slidesPerView: 1,
-		spaceBetween: 50,
+		spaceBetween: 20,
 	  },
 	},
   });

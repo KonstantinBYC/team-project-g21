@@ -96,7 +96,18 @@ color: var(--accent-color);
 	border: 1px solid var(--bg-color-dots);
 	border-radius: 15px;
    
-   padding: 32px 20px;
+   padding: 32px 52px;
+  }
+  @media screen and (max-width:767px) {
+	.our-products__item {
+	 max-width: 335px;
+	  }
+  }
+
+  @media screen and (min-width:768px) {
+	.our-products__item {
+	 padding: 32px 20px;
+	  }
   }
 
   
