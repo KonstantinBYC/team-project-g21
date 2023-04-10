@@ -1,0 +1,204 @@
+.is-hidden .exp-modal-wrap {
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.modal-title {
+  max-width: 263px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: left;
+  color: #111111;
+  margin-bottom: 24px;
+}
+
+.span-modal {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #fd9222;
+}
+
+.exp-modal-wrap {
+  width: 100%;
+  max-width: 311px;
+  max-height: 350px;
+  background: #fafafa;
+  border-radius: 15px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+
+  transition: transform 250ms var(--timing-function);
+}
+
+.modal-top {
+  background-image: url('./img/chocolate-mob.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 169px;
+  margin: 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .modal-top {
+    background-image: url('./img/chocolate-mob@2x.jpg');
+  }
+}
+
+.modal-close {
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  color: var(--secondary-font-color);
+  background: transparent;
+  padding: 6px;
+}
+
+.close-icon {
+  fill: currentColor;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.mod-main-block {
+  padding-bottom: 32px;
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.accent-word {
+  color: var(--accent-color);
+}
+
+.form-input {
+  width: 200px;
+  height: 40px;
+
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+  border-radius: 25px;
+  padding-left: 18px;
+}
+
+.form-input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
+}
+
+.submit-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 28px;
+  gap: 14px;
+
+  width: 100px;
+  height: 45px;
+  left: 163px;
+
+  border: none;
+
+  background: #fd9222;
+  border-radius: 100px;
+
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+
+  flex-grow: 0;
+  z-index: 3;
+}
+@media screen and (min-width: 768px) {
+  .modal-top {
+    height: 196px;
+    margin: 0px;
+    background-image: url('/img/chocolate-desk-tab.jpg');
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .modal-top {
+      height: 196px;
+      background-image: url('/img/chocolate-desk-tab@2x.jpg');
+    }
+  }
+
+  .sudscribe > .container {
+    min-width: 481px;
+  }
+
+  .exp-modal-wrap {
+    max-width: 538px;
+    max-height: 412px;
+  }
+  .mod-main-block {
+    padding-bottom: 40px;
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .modal-title {
+    display: block;
+    text-align: left;
+    margin-left: 0px;
+    max-width: 298px;
+    font-size: 24px;
+  }
+
+  .span-modal {
+    font-size: 24px;
+  }
+
+  .form-input {
+    width: 313px;
+    height: 52px;
+    padding-left: 24px;
+  }
+
+  .form-input::placeholder {
+    font-size: 18px;
+  }
+
+  .form-group {
+    display: flex;
+    gap: 8px;
+  }
+
+  .submit-btn {
+    justify-content: center;
+    padding: 16px 42px;
+    margin-left: 8px;
+    width: 137px;
+    height: 52px;
+  }
+}

@@ -1,5 +1,4 @@
 const views = new Swiper('.our-products__block', {
-	
 	direction: 'horizontal',
 	mousewheel: true,
 	keyboard: true,
@@ -31,5 +30,4 @@ const views = new Swiper('.our-products__block', {
 	 
 	},
   });
-  
   
