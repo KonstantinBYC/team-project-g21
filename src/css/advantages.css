@@ -1,8 +1,11 @@
+.container {
+  max-width: 375px;
+}
+
 .adv-wrap {
   background-color: var(--secondary-bg-color);
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-right: 32px;
 }
 .adv-list {
   display: flex;
@@ -47,14 +50,11 @@
 /* Tablet */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 734px;
   }
   .adv-wrap {
     padding-bottom: 85px;
     padding-top: 50px;
-    padding-left: 17px;
-    padding-right: 45px;
-    margin-bottom: 100px;
   }
   .adv-list {
     flex-direction: row;
@@ -69,11 +69,9 @@
 /* Desktop */
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1130px;
   }
   .adv-wrap {
-    padding-left: 35px;
-    padding-right: 35px;
     padding-bottom: 50px;
     margin-bottom: 128px;
   }
