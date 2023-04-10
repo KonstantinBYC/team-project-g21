@@ -33,21 +33,6 @@
 
 }
 
-.container.our-products__container {
-  box-sizing: border-box;
-  min-width: calc(335px + (20px * 2));
-  height: auto;
-  padding-right: 20px;
-  padding-left: 20px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  overflow: hidden;
-}
 
 
 .container.our-products__container {
@@ -124,9 +109,7 @@
     padding: 32px 52px;
   }
  
-  background: var(--card-bg-color);
-  border: 1px solid var(--bg-color-dots);
-  border-radius: 15px;
+
 
 
   @media screen and (min-width:768px) {
@@ -152,13 +135,7 @@
   height: 201px;
 }
 
-.our-products__name {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: calc(24 / 18);
 
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
 
 .our-products__name{
 	
