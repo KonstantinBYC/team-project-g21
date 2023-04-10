@@ -192,6 +192,8 @@
     font-size: 14px;
     line-height: 1.21;
     color: var(--card-bg-color);
+    transition: color 250ms var(--timing-function),
+    background-color 250ms var(--timing-function);
 }
 
 .submit-button:is(:hover, :focus) {
