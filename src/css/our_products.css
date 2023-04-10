@@ -107,10 +107,10 @@
 	border-radius: 15px;
 	max-width: 335px;
     padding: 32px 52px;
-  }
+  
  
 
-
+  }
   @media screen and (min-width:768px) {
 	.our-products__item {
 	
@@ -129,7 +129,18 @@
 }
 
 
+<<<<<<< Updated upstream
 
+=======
+.our-products__name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+>>>>>>> Stashed changes
 .our-products__name{
 	
 	font-weight: 600;
