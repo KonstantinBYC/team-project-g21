@@ -13,7 +13,7 @@
 }
 
 .unique-components{
-    padding: 72px 0;
+    padding: 72px 0 36px 0;
 }
 
 
@@ -187,7 +187,7 @@
 
 @media screen and (min-width: 768px){
     .unique-components{
-        padding: 100px 0;
+        padding: 100px 0 50px 0;
     }
     
 
@@ -231,7 +231,9 @@
 }
 
 @media screen and (min-width: 1200px){
-
+    .unique-components{
+        padding: 128px 0 64px 0;
+    }
 
 
     .unique-components-heading{
