@@ -24,13 +24,13 @@
 }
 
 .exp-modal-wrap {
-  position: absolute;
   width: 100%;
   max-width: 311px;
   max-height: 350px;
   background: #fafafa;
-
   border-radius: 15px;
+
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -46,7 +46,7 @@
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   height: 169px;
-  padding: 15px 14px 0px 0px;
+  margin: 0px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -86,23 +86,8 @@
   padding-right: 24px;
 }
 
-.form-header-one {
-  margin-bottom: 24px;
-  width: 263px;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-
-  color: var(--primary-font-color);
-}
 .accent-word {
   color: var(--accent-color);
-}
-
-.form-group {
-  position: relative;
 }
 
 .form-input {
@@ -132,11 +117,11 @@
   align-items: center;
   padding: 14px 28px;
   gap: 14px;
-  position: absolute;
+
   width: 100px;
   height: 45px;
   left: 163px;
-  top: 0px;
+
   border: none;
 
   background: #fd9222;
@@ -154,24 +139,20 @@
 }
 @media screen and (min-width: 768px) {
   .modal-top {
-    background-image: url('./img/chocolate-desk-tab.jpg');
+    height: 196px;
+    margin: 0px;
+    background-image: url('/img/chocolate-desk-tab.jpg');
   }
 
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .modal-top {
-      background-image: url('./img/chocolate-desk-tab@2x.jpg');
+      height: 196px;
+      background-image: url('/img/chocolate-desk-tab@2x.jpg');
     }
   }
 
-  .container {
-    max-width: 467px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    width: 100%;
-  }
   .sudscribe > .container {
     min-width: 481px;
   }
@@ -180,8 +161,16 @@
     max-width: 538px;
     max-height: 412px;
   }
-
+  .mod-main-block {
+    padding-bottom: 40px;
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   .modal-title {
+    display: block;
+    text-align: left;
+    margin-left: 0px;
     max-width: 298px;
     font-size: 24px;
   }
@@ -202,14 +191,14 @@
 
   .form-group {
     display: flex;
+    gap: 8px;
   }
 
   .submit-btn {
     justify-content: center;
     padding: 16px 42px;
-    gap: 8px;
-    position: relative;
+    margin-left: 8px;
     width: 137px;
-    height: 62px;
+    height: 52px;
   }
 }
