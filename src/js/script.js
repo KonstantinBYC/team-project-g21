@@ -5,7 +5,7 @@ const views = new Swiper('.our-products__block', {
 	keyboard: true,
 	simulateTouch: true,
 	slidesPerView: 1,
-		spaceBetween: 18,
+	spaceBetween: 18,
   
 	pagination: {
 	  el: '.our-products__swiper-pagination',
@@ -14,6 +14,11 @@ const views = new Swiper('.our-products__block', {
 	breakpoints: {
 		768: {
 			slidesPerView: 2.5,
+		  
+			
+		  },
+		  886: {
+			slidesPerView: 3,
 		  
 			
 		  },
