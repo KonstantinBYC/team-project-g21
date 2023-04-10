@@ -87,6 +87,7 @@
   margin-bottom: 24px;
 }
 
+
 @media screen and (max-width: 743px) {
   .description {
     max-width: 467px;
@@ -106,7 +107,9 @@
   }
 
   .header-subs {
+
     max-width: 291px;
+
     padding-bottom: 0;
     padding-top: 0;
     margin: auto;
@@ -122,6 +125,7 @@
 }
 
 @media screen and (min-width: 744px) {
+
   .subscribe {
     background-image: linear-gradient(
         0deg,
@@ -169,7 +173,6 @@
     margin: auto;
     margin-bottom: 24px;
   }
-
   .subscribe-button {
     width: 172px;
     height: 50px;
@@ -190,7 +193,9 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
+
       url('./img/bg-image/bg-subcribe-desktop.jpg');
+
     padding-top: 72px;
     padding-bottom: 72px;
   }
