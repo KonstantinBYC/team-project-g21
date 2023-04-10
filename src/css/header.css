@@ -235,14 +235,17 @@
 @media screen and (min-width: 300px) {
   .menu-container {
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     top: 0;
     right: 0;
-    width: 220px;
-    height: 100vh;
+    min-width: 220px;
     padding-top: 136px;
     padding-left: 20px;
     background-color: #1e1823;
     z-index: 999;
+    
 
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
@@ -269,6 +272,7 @@
 }
 
 .menu-toggle {
+  position: absolute;
   height: 28px;
   width: 28px;
   display: flex;
@@ -298,7 +302,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-}
+  }
 .icon-x-close {
   fill: #fff;
   width: 28px;
@@ -329,10 +333,10 @@
   gap: 18px;
   list-style: none;
   padding-left: 0;
-  margin-top: 460px;
   margin-bottom: 20px;
+  margin-top: auto;
 }
 .icon-social.white:hover,
-.nicon-social.white:focus {
+.icon-social.white:focus {
   fill: #fd9222;
 }
