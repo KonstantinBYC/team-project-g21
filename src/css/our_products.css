@@ -12,29 +12,31 @@
   .section__our-products{
 	
 	width: 100%;
-	padding-bottom: 72px;
+	padding-top: calc(72px/2);;
+	padding-bottom: calc(72px/2);
 	
 }
 
 @media screen and (min-width:768px){
 	.section__our-products{
 	
-		
-		padding-bottom: 100px;
+	padding-top: calc(100px/2);;
+	padding-bottom: calc(100px/2);
 		
 	}
 }
 @media screen and (min-width:1200px){
 	.section__our-products{
-	
 		
-		padding-bottom: 128px;
+	padding-top: calc(128px/2);;
+	padding-bottom: calc(128px/2);
 		
 	}
 }
 
 
 .container.our-products__container {
+	
 	box-sizing: border-box;
 	min-width: calc(335px + (20px *2));
 	height: auto;
@@ -53,6 +55,7 @@
   @media screen and (min-width: 768px) {
 
 	.container.our-products__container {
+		
 		padding-right: 32px;
 		padding-left: 32px;
 		max-width: calc(704px + (32px *2));
@@ -62,11 +65,13 @@
   @media screen and (min-width: 1200px) {
 	
 	.container.our-products__container {
+		
 		max-width: calc(1136px + (32px *2));
 	}
  
   }
   .our-products__title{
+	
 	font-weight: 600;
 	font-size: 24px;
 	line-height: calc(28/24);
@@ -78,10 +83,12 @@
 }
 
   .second-part__title{
-color: var(--accent-color);
+	
+	color: var(--accent-color);
 }
 
   .our-products__block {
+	
 	display: flex;
 	justify-content: flex-start;
 	width: 100%;
@@ -93,6 +100,7 @@ color: var(--accent-color);
 	
   }
   .our-products__item {
+	
 	box-sizing: border-box;
     
 	background: var(--card-bg-color);
@@ -106,7 +114,8 @@ color: var(--accent-color);
 
   @media screen and (min-width:768px) {
 	.our-products__item {
-	padding: 32px 20px;
+	
+		padding: 32px 20px;
 	max-width: 270px;
 	}
   }
@@ -123,6 +132,7 @@ color: var(--accent-color);
 
 
 .our-products__name{
+	
 	font-weight: 600;
 	font-size: 18px;
 	line-height: calc(24/18);
@@ -137,27 +147,27 @@ color: var(--accent-color);
 
 .our-products__type{
 	font-weight: 400;
-font-size: 12px;
-line-height: calc(14/12);
+	font-size: 12px;
+	line-height: calc(14/12);
 
 
-letter-spacing: -0.02em;
+	letter-spacing: -0.02em;
 
-color: var(--descr-font-kolor);
-margin-bottom: 18px;
+	color: var(--descr-font-kolor);
+	margin-bottom: 18px;
 }
 
 .our-products__price{
-font-weight: 600;
-font-size: 14px;
-line-height: calc(17/14);
-color: var(--primary-font-color);
+	font-weight: 600;
+	font-size: 14px;
+	line-height: calc(17/14);
+	color: var(--primary-font-color);
 
-width: 94px;
-height: 33px;
-background: var(--price-bg-color);
-border: 1px solid var(--bg-color-dots);
-border-radius: 100px;
+	width: 94px;
+	height: 33px;
+	background: var(--price-bg-color);
+	border: 1px solid var(--bg-color-dots);
+	border-radius: 100px;
 }
 
   
