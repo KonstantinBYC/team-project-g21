@@ -4,8 +4,6 @@
   | default @import url()
   |============================
 */
-
-
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./advantages.css');
@@ -26,7 +24,6 @@
   line-height: 24px;
   font-weight: 400;
 
-  color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
@@ -35,14 +32,15 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --primary-bg-color: #e2e2e2;
+  --primary-bg-color: #fafafa;
   --secondary-bg-color: #1e1823;
+  --card-bg-color: #ffffff;
   --primary-font-color: #111111;
   --secondary-font-color: #ffffff;
   --advantages-font-color: rgba(255, 255, 255, 0.7);
   --accent-color: #fd9222;
   --descr-font-kolor: rgba(17, 17, 17, 0.7);
-
+  --price-bg-color: #fafafa;
   --bg-color-dots: rgba(17, 17, 17, 0.1);
   --fill-close-button: rgba(241, 101, 41, 1), rgba(212, 69, 40, 1);
   --input-font-color: rgba(64, 64, 64, 0.3);
@@ -54,8 +52,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  color: var(--primary-font-color);
   background-color: var(--primary-bg-color);
+  margin: 0;
 }
 
 .list {
@@ -81,10 +79,15 @@ body {
   text-decoration: none;
 }
 .container {
+  padding-right: 20px;
+  padding-left: 20px;
   margin: 0 auto;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
 }
 
 h1,
@@ -92,7 +95,7 @@ h2,
 h3,
 p,
 ul {
-  margin: 0;
+  margin: 0px;
 }
 
 ul {
@@ -102,8 +105,9 @@ ul {
 }
 
 a {
-  color: currentColor;
+  display: block;
   text-decoration: none;
+  color: var(--secondary-font-color);
 }
 
 button {

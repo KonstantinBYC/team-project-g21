@@ -1,0 +1,215 @@
+.subscribe {
+  width: 100%;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url('./img/bg-image/bg-subcribe-mobile.jpg');
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-color: #111111;
+
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .subscribe {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('./img/bg-image/bg-subcribe-mobile@2x.jpg');
+  }
+}
+
+@media screen and (max-width: 743px) {
+  .subscribe {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('./img/bg-image/bg-subcribe-tablet.jpg');
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+        ),
+        url('./img/bg-image/bg-subcribe-table@2x.jpg');
+    }
+  }
+}
+
+.header-subs {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: transparent;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 743px) {
+  .header {
+    max-width: 378px;
+    margin: 0 auto;
+  }
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+
+@media screen and (max-width: 743px) {
+  .description {
+    max-width: 467px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 326px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .header-subs {
+
+    max-width: 291px;
+
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: auto;
+    margin-bottom: 24px;
+  }
+
+  .description {
+    max-width: 326px;
+    margin: auto;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 744px) {
+
+  .subscribe {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('./img/bg-image/bg-subcribe-tablet.jpg');
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+        ),
+        url('./img/bg-image/bg-subcribe-table@2x.jpg');
+    }
+  }
+
+  .container {
+    max-width: 467px;
+  }
+
+  .sudscribe > .container {
+    min-width: 481px;
+  }
+
+  .header-subs {
+    max-width: 378px;
+    font-size: 24px;
+    line-height: 1.17;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: auto;
+    margin-bottom: 24px;
+  }
+
+  .description {
+    max-width: 467px;
+    margin: auto;
+    margin-bottom: 24px;
+  }
+  .subscribe-button {
+    width: 172px;
+    height: 50px;
+
+    font-size: 18px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1176px) {
+  container {
+    max-width: 467px;
+  }
+
+  .subscribe {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+
+      url('./img/bg-image/bg-subcribe-desktop.jpg');
+
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+        ),
+        url('./img/bg-image/bg-subcribe-desktop@2x.jpg');
+    }
+  }
+}
