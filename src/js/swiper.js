@@ -1,8 +1,9 @@
 const views = new Swiper('.reviews__block', {
-  loop: true,
   direction: 'horizontal',
   mousewheel: true,
   keyboard: true,
+  slidesPerView: 1,
+  spaceBetween: 20,
 
   pagination: {
     el: '.reviews__swiper-pagination',
@@ -18,10 +19,6 @@ const views = new Swiper('.reviews__block', {
       slidesPerView: 2,
       /* slidesPerGroup: 2, */
       spaceBetween: 16,
-    },
-    320: {
-      slidesPerView: 1,
-      spaceBetween: 20,
     },
   },
 });
