@@ -1,5 +1,6 @@
 .how-made {
-  margin-bottom: 64px;
+  padding-bottom: 36px;
+  padding-top: 36px;
 }
 
 .container {
@@ -31,8 +32,8 @@
 .how-made-container-second {
   background-color: #ffffff;
   border-radius: 15px;
-
-  padding: 32px 32px 34px 32px;
+  margin-top: 20px;
+  padding: 20px 14px;
 }
 
 .how-made-list-header {
@@ -48,14 +49,15 @@
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.02em;
-  margin-bottom: 24px;
 }
-/* .how-made-item:not(:last-child) {
-  margin-bottom: 24px;
-} */
+
 .how-made-list {
   margin-left: 16px;
   list-style: outside url('../img/howitsmade/disc-li.svg');
+}
+
+.how-made-item:not(:last-child) {
+  margin-bottom: 18px;
 }
 
 .how-made-container-first {
@@ -66,9 +68,9 @@
 .how-made-icon-play {
   display: block;
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  top: 50%;
+  transform: translate(-50%);
 }
 
 /*----------------Tablet----------------*/
@@ -79,6 +81,7 @@
 
   .how-made {
     padding-bottom: 50px;
+    padding-top: 50px;
   }
 
   .how-made-header {
@@ -95,10 +98,9 @@
   }
   .how-made-picture {
     width: 100%;
-    margin: 0px auto 20px;
+    margin: 0px auto;
   }
   .how-made-container-first {
-    margin: 0px auto;
     position: relative;
     overflow: hidden;
   }
@@ -120,10 +122,12 @@
 
   .how-made {
     padding-bottom: 64px;
+    padding-top: 64px;
   }
 
   .how-made-container-main {
     display: flex;
+    justify-content: center;
   }
 
   .how-made-container-second {
