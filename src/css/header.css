@@ -236,8 +236,7 @@
   .menu-container {
     position: fixed;
     display: flex;
-    flex-direction: column;
-    height: 100%;
+    /* height: 100%; */
     top: 0;
     right: 0;
     min-width: 220px;
