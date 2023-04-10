@@ -56,9 +56,8 @@
 
 	.container.our-products__container {
 		
-		padding-right: 32px;
-		padding-left: 32px;
-		max-width: calc(704px + (32px *2));
+		
+		max-width: calc(704px + (20px *2));
 	}
 	
   }
@@ -66,7 +65,7 @@
 	
 	.container.our-products__container {
 		
-		max-width: calc(1136px + (32px *2));
+		max-width: calc(1136px + (20px *2));
 	}
  
   }
@@ -115,7 +114,7 @@
   @media screen and (min-width:768px) {
 	.our-products__item {
 	
-		padding: 32px 20px;
+	padding: 32px 20px;
 	max-width: 270px;
 	}
   }
