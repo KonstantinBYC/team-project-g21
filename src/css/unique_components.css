@@ -203,6 +203,10 @@
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .unique-components .unique-components-container {
+    max-width: 768px;
+    margin-bottom: 100px;
+  }
   .components-list-item:nth-child(1) {
     order: 1;
   }
@@ -219,6 +223,7 @@
 @media screen and (min-width: 1200px) {
   .unique-components .unique-components-container {
     max-width: 1200px;
+    margin-bottom: 128px;
   }
   .components-list {
     justify-content: space-between;

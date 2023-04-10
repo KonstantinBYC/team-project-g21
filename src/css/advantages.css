@@ -54,6 +54,7 @@
     padding-top: 50px;
     padding-left: 17px;
     padding-right: 45px;
+    margin-bottom: 100px;
   }
   .adv-list {
     flex-direction: row;
@@ -74,6 +75,7 @@
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 50px;
+    margin-bottom: 128px;
   }
   .adv-list {
     gap: 88px;

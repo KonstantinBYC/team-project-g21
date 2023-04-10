@@ -1,6 +1,7 @@
 .section__reviews {
   /*  margin-bottom: 72px; */
   width: 100%;
+  margin-bottom: 72px;
 }
 .container.reviews__container {
   box-sizing: border-box;
@@ -132,9 +133,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  /*   .section__reviews {
+  .section__reviews {
+    width: 100%;
     margin-bottom: 100px;
-  } */
+  }
   .container.reviews__container {
     max-width: 736px;
     padding: 0 16px;
@@ -158,9 +160,14 @@
   /*  .section__reviews {
     margin-bottom: 128px;
   } */
+  .section__reviews {
+    /*  margin-bottom: 72px; */
+    width: 100%;
+    margin-bottom: 128px;
+  }
   .container.reviews__container {
     max-width: 1176px;
-    padding: 64px 20px;
+    padding: 0px 20px;
   }
   .reviews__item {
     padding: 56px 24px 24px;
