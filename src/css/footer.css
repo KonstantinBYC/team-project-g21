@@ -14,21 +14,20 @@
 /* --timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 
 .footer-section {
+  padding: 32px 0;
+  padding-bottom: 32px;
   background-color: var(--secondary-bg-color);
-
   color: var(--secondary-font-color);
 }
 
 .footer-section .container {
-  margin-right: auto;
-  margin-left: auto;
-  padding: 32px 20px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .footer-content {
   margin-bottom: 32px;
   padding-bottom: 32px;
-
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -87,13 +86,15 @@
 }
 
 .footer-social-media-link {
+  color: var(--secondary-font-color);
   transition: color 250ms var(--timing-function);
 }
 
 .footer-icon {
+  fill: currentColor;
+  display: block;
   width: 22px;
   height: 22px;
-  fill: var(--secondary-font-color);
 }
 
 .footer-navigation-item {
@@ -109,25 +110,17 @@
   transition: color 250ms var(--timing-function);
 }
 
-.footer-social-media-link:hover,
-.footer-social-media-link:focus,
-.footer-contact-link:hover,
-.footer-contact-link:focus,
-.footer-navigation-link:hover,
-.footer-navigation-link:focus {
+.footer-social-media-link:is(:hover, :focus),
+.footer-contact-link:is(:hover, :focus),
+.footer-navigation-link:is(:hover, :focus) {
   color: var(--accent-color);
-  fill: var(--accent-color);
-}
-.footer-icon:hover,
-.footer-icon:focus {
-  fill: var(--accent-color);
 }
 
 /* ------------------------Media----------------------------- */
 
 @media screen and (min-width: 375px) {
   .footer-section .container {
-    max-width: 335px;
+    max-width: 375px;
   }
 }
 
@@ -138,24 +131,26 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .footer-section .container {
-    padding: 50px 32px;
-    max-width: 704px;
+    max-width: 744px;
   }
 
   .footer-content {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 50px;
+    margin-bottom: 24px;
   }
 
   .footer-text {
     font-size: 28px;
     line-height: 1.21;
-  }
-
-  .footer-content {
-    padding-bottom: 50px;
-    margin-bottom: 24px;
+    margin-bottom: 0;
   }
 
   .footer-contact-container {
@@ -174,7 +169,7 @@
 
 @media screen and (min-width: 1200px) {
   .footer-section .container {
-    max-width: 1136px;
+    max-width: 1176px;
   }
 
   .footer-content {
