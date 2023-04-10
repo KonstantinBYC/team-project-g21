@@ -13,15 +13,10 @@
 }
 
 .unique-components{
-    margin: 72px 0;
+    padding: 72px 0;
 }
 
-.unique-components-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .unique-components-heading {
     font-family: 'Montserrat';
@@ -36,6 +31,7 @@
 
     color: #111111;
     width: 283px;
+    margin: 0 auto;
     margin-bottom: 24px;
 }
 
@@ -53,6 +49,8 @@
 
     color: #111111;
     width: 335px;
+    margin: 0 auto;
+
     margin-bottom: 32px;
 }
 
@@ -189,7 +187,7 @@
 
 @media screen and (min-width: 768px){
     .unique-components{
-        margin: 100px 0;
+        padding: 100px 0;
     }
     
 
@@ -233,6 +231,8 @@
 }
 
 @media screen and (min-width: 1200px){
+
+
 
     .unique-components-heading{
         margin-bottom: 28px;
