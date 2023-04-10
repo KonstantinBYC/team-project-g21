@@ -1,28 +1,29 @@
 const views = new Swiper('.our-products__block', {
-	loop: true,
+	
 	direction: 'horizontal',
 	mousewheel: true,
 	keyboard: true,
+	simulateTouch: true,
+	slidesPerView: 1,
+		spaceBetween: 18,
   
 	pagination: {
 	  el: '.our-products__swiper-pagination',
 	  clickable: true,
 	},
 	breakpoints: {
+		768: {
+			slidesPerView: 2.5,
+		  
+			
+		  },
 	  1200: {
-		slidesPerView: 3.91,
+		slidesPerView: 4,
 	  
-		spaceBetween: 18,
+		
 	  },
-	  768: {
-		slidesPerView: 2.5,
 	  
-		spaceBetween: 18,
-	  },
-	  320: {
-		slidesPerView: 1,
-		spaceBetween: 20,
-	  },
+	 
 	},
   });
   
