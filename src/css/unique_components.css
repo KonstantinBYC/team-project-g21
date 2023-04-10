@@ -1,3 +1,17 @@
+.unique-components ::-webkit-scrollbar {
+  width: 4px;
+}
+.unique-components ::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 20px;
+}
+.unique-components ::-webkit-scrollbar-thumb {
+  background-color: #fcf1e0;
+  border-radius: 20px;
+}
+.unique-components ::-webkit-scrollbar-thumb:hover {
+  background-color: var(--accent-color);
+}
 .unique-components-container {
   min-width: 335px;
   display: flex;
@@ -124,7 +138,7 @@
   flex-direction: column;
 }
 .component-flip-card-back-description {
-  overflow: scroll;
+  overflow: auto;
 }
 
 .component-flip-card-back-heading {
