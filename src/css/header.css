@@ -205,7 +205,7 @@
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1176px;
+    min-width: 1176px;
   }
   .nav {
     display: flex;

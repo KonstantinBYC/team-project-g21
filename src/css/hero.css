@@ -125,12 +125,11 @@
     padding: 20px;
     margin: 0px auto 71px;
     height: 621px;
-  }
-  .hero-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
   }
+
   .hero-desc {
     font-size: 20px;
     max-width: 290px;
@@ -192,14 +191,12 @@
     padding: 40px;
     margin: 8px auto 72px;
     height: 600px;
-  }
-  .hero-desc {
-    max-width: 484px;
-  }
-  .hero-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+  }
+  .hero-desc {
+    max-width: 484px;
   }
 }
 /*                                               320-374px                                     */
@@ -210,12 +207,11 @@
     margin: 0px auto 71px;
     overflow: auto;
     height: 600px;
-  }
-  .hero-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
   }
+
   .hero-desc {
     font-size: 18px;
     max-width: 260px;
