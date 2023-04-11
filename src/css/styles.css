@@ -16,7 +16,7 @@
 @import url('./footer.css');
 @import url('./buy_now.css');
 @import url('./leave_a_review.css');
-@import url('./explore_our.css');
+/* @import url('./explore_our.css'); */
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -46,6 +46,9 @@
   --input-font-color: rgba(64, 64, 64, 0.3);
 
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+html {
+  scroll-behavior: smooth;
 }
 
 body {
