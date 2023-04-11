@@ -1,0 +1,142 @@
+.how-made {
+  padding-bottom: 36px;
+  padding-top: 36px;
+}
+
+.container {
+  max-width: 375px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.how-made-header {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.how-made-header-orange {
+  color: #fd9222;
+}
+
+.how-made-picture {
+  border-radius: 15px;
+}
+
+.how-made-container-second {
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 20px 14px;
+}
+
+.how-made-list-header {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+.how-made-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+}
+
+.how-made-list {
+  margin-left: 16px;
+  list-style: outside url('/img/howitsmade/disc-li.svg');
+}
+
+.how-made-item:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.how-made-container-first {
+  position: relative;
+  overflow: hidden;
+}
+
+.how-made-icon-play {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+}
+
+/*----------------Tablet----------------*/
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .how-made {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .how-made-header {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 50px;
+  }
+
+  .how-made-list-header {
+    margin-bottom: 28px;
+  }
+  .how-made-container-main {
+    display: block;
+  }
+  .how-made-picture {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .how-made-container-first {
+    position: relative;
+    overflow: hidden;
+  }
+  .how-made-container-second {
+    padding: 32px;
+  }
+
+  .how-made-icon-play {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+/*----------------Desktop--------------*/
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .how-made {
+    padding-top: calc(128px / 2);
+    padding-bottom: calc(128px / 2);
+  }
+
+  .how-made-container-main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .how-made-container-second {
+    max-width: 516px;
+    margin-left: 20px;
+    margin-top: 0;
+  }
+
+  .how-made-picture {
+    margin-bottom: 0;
+  }
+}
