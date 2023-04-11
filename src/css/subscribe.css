@@ -5,7 +5,7 @@
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url('../img/bg-image/bg-subcribe-mobile.jpg');
+    url('./img/bg-image/bg-subcribe-mobile.jpg');
 
   background-repeat: no-repeat;
   background-position: center;
@@ -29,7 +29,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url('../img/bg-image/bg-subcribe-mobile@2x.jpg');
+      url('./img/bg-image/bg-subcribe-mobile@2x.jpg');
   }
 }
 
@@ -40,7 +40,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url('../img/bg-image/bg-subcribe-tablet.jpg');
+      url('./img/bg-image/bg-subcribe-tablet.jpg');
     padding-top: 72px;
     padding-bottom: 72px;
   }
@@ -54,7 +54,7 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
-        url('../img/bg-image/bg-subcribe-table@2x.jpg');
+        url('./img/bg-image/bg-subcribe-table@2x.jpg');
     }
   }
 }
@@ -186,7 +186,7 @@
 }
 
 .modal-top {
-  background-image: url('../img/chocolate-mob.jpg');
+  background-image: url('./img/chocolate-mob.jpg');
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -202,7 +202,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .modal-top {
-    background-image: url('../img/chocolate-mob@2x.jpg');
+    background-image: url('./img/chocolate-mob@2x.jpg');
   }
 }
 
@@ -364,7 +364,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url('../img/bg-image/bg-subcribe-tablet.jpg');
+      url('./img/bg-image/bg-subcribe-tablet.jpg');
     padding-top: 72px;
     padding-bottom: 72px;
   }
@@ -378,12 +378,12 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
-        url('../img/bg-image/bg-subcribe-table@2x.jpg');
+        url('./img/bg-image/bg-subcribe-table@2x.jpg');
     }
   }
 
   .modal-top {
-    background-image: url('../img/chocolate-desk-tab.jpg');
+    background-image: url('./img/chocolate-desk-tab.jpg');
     height: 196px;
     margin: 0px;
   }
@@ -394,7 +394,7 @@
     (min-resolution: 2dppx) {
     .modal-top {
       height: 196px;
-      background-image: url('../img/chocolate-desk-tab@2x.jpg');
+      background-image: url('./img/chocolate-desk-tab@2x.jpg');
     }
   }
 
@@ -529,7 +529,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url('../img/bg-image/bg-subcribe-desktop.jpg');
+      url('./img/bg-image/bg-subcribe-desktop.jpg');
     padding-top: 72px;
     padding-bottom: 72px;
   }
@@ -543,7 +543,7 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
-        url('../img/bg-image/bg-subcribe-desktop@2x.jpg');
+        url('./img/bg-image/bg-subcribe-desktop@2x.jpg');
     }
   }
 }
