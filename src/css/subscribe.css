@@ -172,9 +172,34 @@
   .subscribe-button {
     width: 172px;
     height: 50px;
-
     font-size: 18px;
+    font-weight: 600;
+
+    line-height: 1.2;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 24px;
     margin: 0 auto;
+    border: none;
+    background: #fd9222;
+    border-radius: 100px;
+  }
+  .subscribe-button {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .subscribe-button:hover,
+  .subscribe-button:focus {
+    color: #fd9222;
+    background-color: #fcf1e0;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
 

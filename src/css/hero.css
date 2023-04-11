@@ -106,18 +106,14 @@
   border: none;
   background-color: var(--secondary-font-color);
   cursor: pointer;
-  transition: background-color 250ms var(--timing-function);
+  fill: var(--accent-color);
+  transition: background-color 250ms var(--timing-function),
+    transform 250ms var(--timing-function), fill 250ms var(--timing-function);
 }
+
 .scroll-down-button:hover,
 .scroll-down-button:focus {
   background-color: var(--accent-color);
-}
-.icon-scroll-down {
-  fill: var(--accent-color);
-  transition: transform 250ms var(--timing-function);
-}
-.scroll-down-button > .icon-scroll-down:hover,
-.scroll-down-button > .icon-scroll-down:focus {
   fill: var(--secondary-font-color);
   transform: rotate(-90deg);
 }
@@ -128,6 +124,12 @@
     width: 335px;
     padding: 395px 20px 20px 20px;
     margin: 0px auto 71px;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 621px;
   }
   .hero-desc {
     font-size: 20px;
@@ -152,7 +154,10 @@
   .hero-buttons {
     gap: 12px;
   }
-
+  .icon-scroll-down {
+    width: 16px;
+    height: 160px;
+  }
   .scroll-down {
     font-size: 12px;
     line-height: 1.17;
@@ -167,10 +172,15 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     width: 704px;
-    padding: 671px 40px 40px 40px;
+    padding: 40px;
     margin: 0px auto 50px;
   }
-
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 890px;
+  }
   .hero-desc {
     max-width: 484px;
   }
@@ -179,20 +189,32 @@
 @media screen and (min-width: 1200px) {
   .hero {
     max-width: 1136px;
-    padding: 381px 40px 40px 40px;
+    padding: 40px;
     margin: 8px auto 72px;
   }
   .hero-desc {
     max-width: 484px;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 600px;
   }
 }
 /*                                               320-374px                                     */
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .hero {
     width: 280px;
-    padding: 395px 15px 10px 15px;
+    padding: 15px;
     margin: 0px auto 71px;
     overflow: auto;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 600px;
   }
   .hero-desc {
     font-size: 18px;
