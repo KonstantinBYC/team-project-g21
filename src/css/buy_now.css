@@ -1,0 +1,332 @@
+.backdrop .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.backdrop {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+    z-index: 100;
+}
+
+.order-modal {
+    width: 100%;
+    max-width: 311px;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--price-bg-color);
+    border-radius: 15px;
+    padding: 32px 24px;
+}
+
+.order-modal-close {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    background-color: var(--price-bg-color);
+    font-size: 0;
+}
+
+.order-form-title {
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.order-form-title > span {
+    color: var(--accent-color);
+}
+
+.order-modal-container .order-list {
+    margin-bottom: 32px;
+}
+
+.order-list .order-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.order-thumb {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    min-height: 85px;
+    padding: 16px;
+    background-color: var(--card-bg-color);
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+}
+
+.order-thumb > .order-btn {
+    min-height: 29px;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 6px 16px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 100px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.214;
+}
+
+.order-modal-form {
+    max-width: 263px;
+}
+
+.order-form-group {
+    margin-bottom: 18px;
+}
+
+.order-form-group label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+}
+
+
+.order-form-control {
+    position: relative;
+    margin-top: 8px;
+}
+
+.order-contacts-form input:first-child {
+    margin-bottom: 14px;
+}
+
+.order-form-control span {
+    position: absolute;
+}
+
+.modal-order-icon-position {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 74px;
+    top: 50%;
+    bottom: 0;
+    left: 18px;
+    transform: translateY(-50%);
+    box-shadow: 1.5px 0px 0px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+}
+
+.order-form-control input {
+    height: 45px;
+    width: 100%;
+    padding: 14px 18px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+    border-radius: 8px;
+}
+
+.order-form-control .modal-order-tel {
+    padding-left: 106px;
+}
+
+.order-form-control input::placeholder {
+    color: rgba(64, 64, 64, 0.3);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+}
+
+.order-form-control .order-card-form {
+    position: relative;
+}
+
+.form-icon {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    transform: translateY(-50%);
+    right: 14px;
+}
+
+.order-form-textarea {
+    resize: none;
+    height: 91px;
+    width: 100%;
+    margin-top: 8px;
+    padding: 14px 18px;
+}
+
+.order-form-textarea::placeholder {
+    color: rgba(64, 64, 64, 0.3);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+}
+
+.submit-button {
+    display: block;
+    width: 109px;
+    height: 41px;
+    background-color: var(--accent-color);
+    border-radius: 100px;
+    margin-left: 0;
+    margin-bottom: 0;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--card-bg-color);
+    transition: color 250ms var(--timing-function),
+    background-color 250ms var(--timing-function);
+}
+
+.submit-button:is(:hover, :focus) {
+    background-color: #FCF1E0;
+    color: #FD9222;
+}
+
+.order-radio-button:checked+.order-thumb .order-btn {
+    background-color: var(--accent-color);
+    color: var(--card-bg-color);
+}
+
+.order-radio-button:checked+.order-thumb {
+    border: 1px solid var(--accent-color);
+}
+
+@media screen and (min-width: 768px) {
+    .order-modal {
+        max-width: 609px;
+        padding: 48px;
+    }
+
+    .order-modal-close {
+        display: block;
+        right: 24px;
+        top: 24px;
+        width: 28px;
+        height: 28px;
+        background-color: var(--price-bg-color);
+        font-size: 0;
+    }
+
+    .order-form-title {
+        font-size: 24px;
+        line-height: 1.17;
+    }
+
+    .order-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        column-gap: 16px;
+    }
+
+    .order-thumb {
+        flex-direction: column;
+        row-gap: 14px;
+    }
+
+    .order-thumb>.order-btn {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .order-modal-container .order-list {
+        margin-bottom: 40px;
+    }
+
+    .order-form-group label {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+    }
+
+    .order-modal-form {
+        max-width: 513px;
+    }
+
+    .order-contacts-form {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        column-gap: 21px;
+    }
+
+    .order-form-control input {
+        height: 66px;
+        padding: 22px 24px;
+    }
+
+    .order-form-textarea {
+        padding: 22px 24px;
+        height: 137px;
+    }
+
+    .form-icon {
+        right: 24px;
+    } 
+    
+    .modal-order-tel-icon {
+        width: 32px;
+        height: 24px;
+    }
+
+    .modal-order-icon-position {
+        left: 24px;
+        width: 125px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.22;
+        letter-spacing: -0.02em;
+
+    }
+
+    .order-form-control .modal-order-tel {
+        padding-left: 177px;
+    }
+
+    .submit-button {
+        padding: 14px 40px;
+        width: 133px;
+        height: 45px;
+
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.21;
+    }
+
+    .order-form-textarea::placeholder, .order-form-control input::placeholder {
+        color: rgba(64, 64, 64, 0.3);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.22;
+        letter-spacing: -0.02em;
+    }
+
+    .order-thumb>.order-btn {
+        min-height: 33px;
+        padding: 8px 27px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.21;
+    }
+
+}
