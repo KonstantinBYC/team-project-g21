@@ -5,7 +5,7 @@
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url('./img/bg-image/bg-subcribe-mobile.jpg');
+    url('/img/bg-image/bg-subcribe-mobile.jpg');
 
   background-repeat: no-repeat;
   background-position: center;
@@ -29,7 +29,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url('./img/bg-image/bg-subcribe-mobile@2x.jpg');
+      url('/img/bg-image/bg-subcribe-mobile@2x.jpg');
   }
 }
 @media screen and (max-width: 743px) {
@@ -39,7 +39,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url('./img/bg-image/bg-subcribe-tablet.jpg');
+      url('/img/bg-image/bg-subcribe-tablet.jpg');
     padding-top: 72px;
     padding-bottom: 72px;
   }
@@ -52,8 +52,13 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
-        url('./img/bg-image/bg-subcribe-table@2x.jpg');
+        url('/img/bg-image/bg-subcribe-table@2x.jpg');
     }
+  }
+  .modal-top {
+    background-image: url('/img/chocolate-mob.jpg');
+    min-height: 169px;
+    margin: 0px;
   }
 }
 .header-subs {
@@ -67,7 +72,7 @@
   background-color: transparent;
   margin-bottom: 24px;
 }
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 375px) {
   .container {
     max-width: 326px;
     padding-left: 20px;
@@ -134,6 +139,7 @@
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
+  min-width: 291px;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -217,18 +223,20 @@
   transform: translate(-50%, -50%) scale(0);
 }
 
-.modal-title {
+.exp-title {
+  display: block;
   font-weight: 600;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  text-align: left;
   color: #111111;
+  padding-top: 40px;
   margin-left: 0px;
+  margin-bottom: 24px;
 }
 
-.span-modal {
+.span-exp {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -272,7 +280,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .modal-top {
-    background-image: url('./img/chocolate-mob@2x.jpg');
+    background-image: url('/img/chocolate-mob@2x.jpg');
   }
 }
 
@@ -284,12 +292,11 @@
   display: flex;
   margin-left: auto;
   align-items: center;
-
   background: transparent;
   padding: 6px;
   border-radius: 100%;
-  width: 38px;
-  height: 38px;
+  width: 36px;
+  height: 36px;
   transition: background-color 250ms var(--timing-function),
     color 250ms var(--timing-function);
 }
@@ -298,8 +305,8 @@
   fill: var(--secondary-font-color);
   flex-shrink: 0;
   padding: 0;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     width 250ms cubic-bezier(0.4, 0, 0.2, 1),
     height 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -312,8 +319,6 @@
 
 .modal-close:is(:hover, :focus) .close-icon {
   fill: #fd9222;
-  width: 16px;
-  height: 16px;
 }
 
 .mod-main-block {
@@ -485,7 +490,7 @@
   }
 
   .description {
-    max-width: 467px;
+    min-width: 326px;
     margin: auto;
     margin-bottom: 24px;
   }
@@ -528,8 +533,8 @@
   }
 
   .modal-close {
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
     transition: background-color 250ms var(--timing-function),
       color 250ms var(--timing-function);
   }
@@ -540,8 +545,8 @@
   }
 
   .close-icon {
-    width: 28px;
-    height: 28px;
+    width: 22px;
+    height: 22px;
   }
 
   .modal-close:is(:hover, :focus) {
@@ -562,13 +567,19 @@
       width 250ms cubic-bezier(0.4, 0, 0.2, 1),
       height 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
-  .modal-title {
+  .exp-title {
     display: block;
-    text-align: left;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+    padding-top: 40px;
+    margin-left: 0px;
+    margin-bottom: 24px;
   }
-
-  .span-modal {
+  .span-exp {
     font-size: 24px;
   }
 

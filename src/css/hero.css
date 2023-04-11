@@ -122,14 +122,14 @@
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .hero {
     width: 335px;
-    padding: 395px 20px 20px 20px;
+    padding: 20px;
     margin: 0px auto 71px;
+    height: 621px;
   }
   .hero-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 621px;
   }
   .hero-desc {
     font-size: 20px;
@@ -174,12 +174,12 @@
     width: 704px;
     padding: 40px;
     margin: 0px auto 50px;
+    height: 890px;
   }
   .hero-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 890px;
   }
   .hero-desc {
     max-width: 484px;
@@ -191,6 +191,7 @@
     max-width: 1136px;
     padding: 40px;
     margin: 8px auto 72px;
+    height: 600px;
   }
   .hero-desc {
     max-width: 484px;
@@ -199,7 +200,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 600px;
   }
 }
 /*                                               320-374px                                     */
@@ -209,12 +209,12 @@
     padding: 15px;
     margin: 0px auto 71px;
     overflow: auto;
+    height: 600px;
   }
   .hero-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 600px;
   }
   .hero-desc {
     font-size: 18px;
