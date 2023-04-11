@@ -31,7 +31,7 @@
   <!-- css -->
   
   <script type="module" crossorigin src="/team-project-g21/assets/index-b69e96a6.js"></script>
-  <link rel="stylesheet" href="/team-project-g21/assets/index-36ed1bc5.css">
+  <link rel="stylesheet" href="/team-project-g21/assets/index-9968bf89.css">
 </head>
 
 <body>
@@ -645,7 +645,7 @@
       </div>
 
       <div class="mod-main-block">
-        <div name="contacts">
+        <div name="contacts-modal">
 
           <p class="modal-title">Explore our <br> <span class="span-modal">new chocolate</span> first!</p>
 
@@ -822,61 +822,35 @@
     </div>
   </div>
 </div>
-      <div class="backdrop" data-modal>
-      <div class="modal">
-        <button
-          type="button"
-          class="modal-close"
-          data-modal-close="popup_review"
-        >
-          <svg class="modal-close--icon" width="28" height="28">
-            <use href="/team-project-g21/assets/sprite-fbd1994a.svg#icon-x-close"></use>
-          </svg>
-        </button>
-        <h3 class="modal-title">
-          leave a review about<br />
-          <span class="modal-title--part">our chocolate</span>
-        </h3>
-        <form class="modal-form">
-          <input
-            class="modal-input"
-            type="name"
-            placeholder="Name"
-            required
-            pattern="/^[a-z ,.'-]+$/i"
-          />
-          <input
-            class="modal-input"
-            type="email"
-            placeholder="Email"
-            required
-            pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
-          />
-          <div class="phone-wrap">
-            <div class="phone-country">
-              <div class="flag"></div>
-              <p class="country-choise">+380</p>
-            </div>
-            <input
-              class="phone-input"
-              type="phone"
-              placeholder="Phone number"
-              required
-              pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$"
-            />
-          </div>
-          <textarea class="modal-textarea" placeholder="Enter text"></textarea>
-          <button
-            type="submit"
-            class="modal-submit"
-            data-modal-close="popup_review"
-          >
-            Send
-          </button>
-        </form>
+  <div class="backdrop is-hidden" data-modal="2">
+  <div class="modal">
+    <button type="button" class="modal-close" data-close-modal>
+      <svg class="modal-close--icon" width="28" height="28">
+        <use href="/team-project-g21/assets/sprite-fbd1994a.svg#icon-x-close"></use>
+      </svg>
+    </button>
+    <h3 class="modal-title">
+      leave a review about<br />
+      <span class="modal-title--part">our chocolate</span>
+    </h3>
+    <form class="modal-form">
+      <input class="modal-input" type="name" placeholder="Name" required pattern="/^[a-z ,.'-]+$/i" />
+      <input class="modal-input" type="email" placeholder="Email" required pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" />
+      <div class="phone-wrap">
+        <div class="phone-country">
+          <div class="flag"></div>
+          <p class="country-choise">+380</p>
+        </div>
+        <input class="phone-input" type="phone" placeholder="Phone number" required
+          pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$" />
       </div>
-    </div>
-
+      <textarea class="modal-textarea" placeholder="Enter text"></textarea>
+      <button type="submit" class="modal-submit" data-modal-close="popup_review">
+        Send
+      </button>
+    </form>
+  </div>
+</div>
   
 
 
