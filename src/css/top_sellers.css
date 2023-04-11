@@ -1,7 +1,7 @@
 .top-sellers-section {
   box-sizing: border-box;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* ---------------------------------mobile styles--------------------------------- */
@@ -97,6 +97,10 @@
 
 /* -----------------------------------tablet---------------------------------------------------- */
 @media screen and (min-width: 768px) {
+  .top-sellers-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .top-sellers-section .container {
     max-width: 744px;
   }
@@ -145,6 +149,10 @@
 
 /* -----------------------------------desktop---------------------------------------------------- */
 @media screen and (min-width: 1200px) {
+  .top-sellers-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
   .top-sellers-section .container {
     max-width: 1176px;
   }

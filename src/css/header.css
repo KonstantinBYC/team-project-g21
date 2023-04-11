@@ -5,8 +5,8 @@
 
 */
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 20px;
+  padding-bottom: 14px;
   margin: 0px;
   background-color: var(--primary-bg-color);
   /* overflow-x: hidden; */
@@ -92,6 +92,10 @@
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
   .container {
     min-width: 768px;
   }
@@ -206,6 +210,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .header {
+    padding-bottom: 32px;
+  }
   .container {
     min-width: 1200px;
   }

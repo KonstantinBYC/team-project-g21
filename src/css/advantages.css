@@ -1,8 +1,11 @@
+.advantages-sec {
+  padding-top: 72px;
+}
 .container {
   max-width: 375px;
 }
 
-.adv-wrap {
+.adv-wrap .container {
   background-color: var(--secondary-bg-color);
   padding-top: 20px;
   padding-bottom: 20px;
@@ -49,10 +52,13 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+  .advantages-sec {
+    padding-top: 50px;
+  }
   .container {
     max-width: 734px;
   }
-  .adv-wrap {
+  .adv-wrap .container {
     padding-bottom: 85px;
     padding-top: 50px;
   }
@@ -68,12 +74,14 @@
 }
 /* Desktop */
 @media screen and (min-width: 1200px) {
+  .advantages-sec {
+    padding-top: 72px;
+  }
   .container {
     max-width: 1130px;
   }
-  .adv-wrap {
+  .adv-wrap .container {
     padding-bottom: 50px;
-    margin-bottom: 128px;
   }
   .adv-list {
     gap: 88px;

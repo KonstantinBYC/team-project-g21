@@ -123,7 +123,7 @@
   .hero {
     width: 335px;
     padding: 395px 20px 20px 20px;
-    margin: 0px auto 71px;
+    margin: 0px auto;
   }
   .hero-container {
     display: flex;
@@ -173,7 +173,7 @@
   .hero {
     width: 704px;
     padding: 40px;
-    margin: 0px auto 50px;
+    margin: 0px auto;
   }
   .hero-container {
     display: flex;
@@ -190,7 +190,7 @@
   .hero {
     max-width: 1136px;
     padding: 40px;
-    margin: 8px auto 72px;
+    margin: 0 auto;
   }
   .hero-desc {
     max-width: 484px;
@@ -207,7 +207,7 @@
   .hero {
     width: 280px;
     padding: 15px;
-    margin: 0px auto 71px;
+    margin: 0px auto;
     overflow: auto;
   }
   .hero-container {

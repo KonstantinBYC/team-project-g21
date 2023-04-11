@@ -6,7 +6,7 @@ const views = new Swiper('.our-products__block', {
   slidesPerView: 1,
   spaceBetween: 18,
   pagination: {
-    el: '.our-products__swiper-pagination',
+    el: '.our_products__swiper-pagination',
     clickable: true,
   },
   breakpoints: {
