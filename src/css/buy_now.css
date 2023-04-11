@@ -201,6 +201,15 @@
     color: #FD9222;
 }
 
+.order-radio-button:checked+.order-thumb .order-btn {
+    background-color: var(--accent-color);
+    color: var(--card-bg-color);
+}
+
+.order-radio-button:checked+.order-thumb {
+    border: 1px solid var(--accent-color);
+}
+
 @media screen and (min-width: 768px) {
     .order-modal {
         max-width: 609px;
