@@ -18,13 +18,12 @@
 }
 
 .container {
-   max-width: 375px;
-   padding: 0 20px;
-   margin: 0 auto;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
-
   .nav-link {
     font-family: 'Montserrat';
     font-weight: 500;
