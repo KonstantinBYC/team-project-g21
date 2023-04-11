@@ -24,10 +24,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .container {
-    max-width: 375px;
-    min-width: 320px;
-  }
+
   .nav-link {
     font-family: 'Montserrat';
     font-weight: 500;
@@ -95,7 +92,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
-    min-width: 768px;
+    max-width: 744px;
   }
   .nav-list,
   .nav-list-social {
@@ -209,7 +206,7 @@
 
 @media screen and (min-width: 1200px) {
   .container {
-    min-width: 1200px;
+    max-width: 1176px;
   }
   .nav {
     display: flex;
