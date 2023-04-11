@@ -53,7 +53,7 @@
 
 .how-made-list {
   margin-left: 16px;
-  list-style: outside url('../img/howitsmade/disc-li.svg');
+  list-style: outside url('/img/howitsmade/disc-li.svg');
 }
 
 .how-made-item:not(:last-child) {

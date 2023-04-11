@@ -8,7 +8,6 @@ modalCloseButtons.forEach(closeBtn => {
     modalClose(closeBtn.closest('[data-modal]'));
   });
 });
-
 modalOpenButtons.forEach(modalBtn => {
   modalBtn.addEventListener('click', e => {
     const modalName = modalBtn.getAttribute('data-open-modal');
@@ -17,15 +16,12 @@ modalOpenButtons.forEach(modalBtn => {
     modalOpen(currentModal);
   });
 });
-
 function modalOpen(currentModal) {
   currentModal.classList.remove('is-hidden');
   bodyLock();
   isModalOpen = true;
-
   document.addEventListener('keydown', onEscOrClick);
   currentModal.addEventListener('click', onEscOrClick);
-
   function onEscOrClick(e) {
     if (e.which === 27 || e.target === currentModal) {
       modalClose(currentModal);
@@ -34,28 +30,23 @@ function modalOpen(currentModal) {
     }
   }
 }
-
 function modalClose(modalActive) {
   modalActive.classList.add('is-hidden');
   isModalOpen = false;
   modalActive.addEventListener('transitionend', onTransitionEnd);
-
   function onTransitionEnd() {
     modalActive.removeEventListener('transitionend', onTransitionEnd);
     bodyUnLock();
   }
 }
-
 function bodyLock() {
   const scrollbarWidth = window.innerWidth - body.offsetWidth + 'px';
   const bodyPaddingRight = body.style.paddingRight;
-
   body.style.overflow = 'hidden';
   body.style.paddingRight = !bodyPaddingRight
     ? scrollbarWidth
     : bodyPaddingRight;
 }
-
 function bodyUnLock() {
   if (!isModalOpen) {
     body.style.removeProperty('overflow');

@@ -4,7 +4,6 @@ const views = new Swiper('.reviews__block', {
   keyboard: true,
   slidesPerView: 1,
   spaceBetween: 20,
-
   pagination: {
     el: '.reviews__swiper-pagination',
     clickable: true,
