@@ -116,7 +116,7 @@
     padding-bottom: calc(128px / 2);
   }
   .video-how {
-    max-width: 573px;
+    width: 600px;
   }
   .how-made-container-main {
     display: flex;
@@ -124,7 +124,7 @@
   }
 
   .how-made-container-second {
-    max-width: 516px;
+    width: 516px;
     margin-left: 20px;
     margin-top: 0;
   }

@@ -22,7 +22,6 @@
 @media screen and (min-width: 1200px) {
   .section__our-products {
     padding-top: calc(128px / 2);
-    padding-bottom: calc(128px / 2);
   }
 }
 
