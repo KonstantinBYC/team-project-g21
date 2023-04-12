@@ -33,7 +33,7 @@
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: var(--primary-font-color);
-  width: 283px;
+  max-width: 283px;
   margin: 0 auto;
   margin-bottom: 24px;
 }
@@ -113,7 +113,7 @@
 }
 .component-flip-card-front > picture {
   margin: 0 auto 25px;
-  width: 224px;
+  max-width: 224px;
 }
 
 .component-flip-card-front > p {
@@ -184,16 +184,14 @@
   letter-spacing: -0.02em;
   color: var(--primary-font-color);
 }
-@media screen and (min-width: 376px) and (max-width: 767.98px) {
+@media screen and (min-width: 376px) and (max-width: 767px) {
   .component-flip-card-front > p {
     text-align: center;
   }
 
   /* Style the back side */
   .component-flip-card-back {
-    width: 279px;
-    height: 214px;
-
+    width: 100%;
     padding: 28px;
 
     background-color: white;

@@ -71,10 +71,11 @@
   color: #ffffff;
   background-color: transparent;
   margin-bottom: 24px;
+  max-width: 291px;
 }
 @media screen and (min-width: 375px) {
   .header-subs {
-    min-width: 291px;
+    max-width: 291px;
     margin: 0 auto;
     margin-bottom: 24px;
   }
@@ -117,19 +118,6 @@
         url('/img/bg-image/bg-subcribe-table@2x.jpg');
     }
   }
-}
-
-.header-subs {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  min-width: 291px;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: transparent;
-  margin-bottom: 24px;
 }
 
 @media screen and (max-width: 767px) {
