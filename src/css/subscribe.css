@@ -146,14 +146,10 @@
   letter-spacing: -0.02em;
   color: #ffffff;
   margin-bottom: 24px;
-}
+  max-width: 467px;
 
-@media screen and (max-width: 767px) {
-  .description {
-    max-width: 467px;
-    margin: 0 auto;
-    margin-bottom: 24px;
-  }
+  margin: 0 auto;
+  margin-bottom: 24px;
 }
 
 .subscribe-button {
