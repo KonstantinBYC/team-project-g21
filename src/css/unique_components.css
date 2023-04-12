@@ -267,5 +267,19 @@
         justify-content: space-around;
     }
 
+    .components-list-item:nth-child(1){
+        order: 1;
+    }
+    .components-list-item:nth-child(2){
+        order: 2;
+    }
+    .components-list-item:nth-child(3){
+        order: 3;
+    } 
+
+    .components-list-item:nth-child(4){
+        order: 4;
+    }
+
     
 }
