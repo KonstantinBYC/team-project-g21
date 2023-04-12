@@ -1,5 +1,11 @@
 .hero {
-  width: 100%;
+  max-width: 335px;
+  padding: 20px;
+  margin: 0px auto 71px;
+  height: 621px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   border-radius: 30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -7,6 +13,7 @@
   background-color: var(--primary-bg-color);
   color: var(--secondary-font-color);
 }
+
 .hero-desc {
   font-weight: 500;
   font-size: 28px;
@@ -73,10 +80,12 @@
   justify-content: space-between;
   align-items: end;
   margin: 0px;
+  flex-wrap: wrap;
 }
 .hero-buttons {
   display: flex;
   gap: 14px;
+  flex-wrap: wrap;
 }
 .scroll-down-cont {
   display: flex;
@@ -120,16 +129,6 @@
 
 /*                                               MOBILE                                     */
 @media screen and (min-width: 375px) and (max-width: 767px) {
-  .hero {
-    width: 335px;
-    padding: 20px;
-    margin: 0px auto 71px;
-    height: 621px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-
   .hero-desc {
     font-size: 20px;
     max-width: 290px;
@@ -168,18 +167,14 @@
 }
 /*                                               tablet                               */
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .hero {
-    width: 704px;
+    max-width: 704px;
     padding: 40px;
     margin: 0px auto 50px;
-    height: 890px;
+    height: 100%;
   }
-  .hero-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
+
   .hero-desc {
     max-width: 484px;
   }
@@ -188,28 +183,21 @@
 @media screen and (min-width: 1200px) {
   .hero {
     max-width: 1136px;
-    padding: 40px;
     margin: 8px auto 72px;
     height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
   }
   .hero-desc {
     max-width: 484px;
   }
 }
-/*                                               320-374px                                     */
-@media screen and (min-width: 320px) and (max-width: 374px) {
+/*                                               0-374px                                     */
+@media screen and (max-width: 374px) {
   .hero {
     width: 280px;
     padding: 15px;
     margin: 0px auto 71px;
     overflow: auto;
     height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
   }
 
   .hero-desc {

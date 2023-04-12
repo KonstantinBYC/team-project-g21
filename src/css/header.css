@@ -17,13 +17,12 @@
   justify-content: space-between;
 }
 
-.container {
-  max-width: 375px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
 @media screen and (max-width: 767px) {
+  .container {
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
   .nav-link {
     font-family: 'Montserrat';
     font-weight: 500;
@@ -201,11 +200,15 @@
     border-radius: 50%;
     outline: none;
   }
+  .menu-list-social {
+    left: 34px;
+    bottom: 24px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    min-width: 1176px;
+    max-width: 1176px;
   }
   .nav {
     display: flex;
@@ -417,11 +420,4 @@
 .icon-social.white:hover,
 .icon-social.white:focus {
   fill: var(--accent-color);
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .menu-list-social {
-    left: 34px;
-    bottom: 24px;
-  }
 }

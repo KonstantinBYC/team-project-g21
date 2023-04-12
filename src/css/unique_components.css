@@ -18,7 +18,6 @@
   background-color: var(--accent-color);
 }
 .unique-components-container {
-  min-width: 335px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,7 +46,7 @@
   line-height: 1.29;
   text-align: center;
   letter-spacing: -0.02em;
-  width: 335px;
+  max-width: 335px;
   margin: 0 auto;
   color: var(--primary-font-color);
   margin-bottom: 32px;
@@ -63,7 +62,7 @@
 
 .components-list-item {
   border-radius: 15px;
-  min-width: 335px;
+  max-width: 335px;
   width: 100%;
   height: 270px;
 }
@@ -115,12 +114,6 @@
 .component-flip-card-front > picture {
   margin: 0 auto 25px;
   width: 224px;
-}
-
-.component-flip-card-front > picture > img {
-  margin: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .component-flip-card-front > p {
@@ -309,7 +302,6 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .unique-components .unique-components-container {
     max-width: 768px;
-    margin-bottom: 100px;
   }
 }
 @media screen and (min-width: 1200px) {
