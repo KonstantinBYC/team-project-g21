@@ -134,7 +134,7 @@
   letter-spacing: -0.02em;
   color: #ffffff;
   margin-bottom: 24px;
-  max-width: 467px;
+  max-width: 326px;
 
   margin: 0 auto;
   margin-bottom: 24px;
@@ -440,7 +440,7 @@
   }
 
   .description {
-    max-width: 326px;
+    max-width: 467px;
     margin: auto;
     margin-bottom: 24px;
   }
