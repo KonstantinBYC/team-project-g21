@@ -197,10 +197,6 @@
     border-radius: 50%;
     outline: none;
   }
-  .menu-list-social {
-    left: 34px;
-    bottom: 24px;
-  }
 }
 
 @media screen and (min-width: 1200px) {

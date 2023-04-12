@@ -375,7 +375,11 @@
     margin: auto;
     margin-bottom: 24px;
   }
-
+  .exp-title {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+  }
   .description {
     max-width: 326px;
     margin: auto;
@@ -425,10 +429,6 @@
     }
   }
 
-  .sudscribe > .container {
-    min-width: 481px;
-  }
-
   .header-subs {
     max-width: 378px;
     font-size: 24px;
@@ -440,7 +440,7 @@
   }
 
   .description {
-    min-width: 326px;
+    max-width: 326px;
     margin: auto;
     margin-bottom: 24px;
   }
@@ -534,7 +534,7 @@
   }
 
   .form-input {
-    width: 313px;
+    max-width: 313px;
     height: 52px;
     padding-left: 24px;
   }
